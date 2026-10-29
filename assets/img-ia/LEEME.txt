@@ -1,0 +1,46 @@
+﻿IMÁGENES IA · CÓMO REEMPLAZAR LOS RESPALDOS
+============================================
+
+1. Genere la imagen con el prompt correspondiente (Documentacion/03-Prompts-Imagenes).
+2. Guárdela en ESTA carpeta (Presentacion/assets/img-ia/) con el nombre EXACTO de la lista.
+   - Formato PNG, todo en minúsculas, sin espacios.
+   - Fondo de estudio blanco (scene/face) o transparente/blanco liso (object).
+3. Abra (o recargue con F5) Presentacion/index.html. No hay que tocar código.
+   Si la imagen existe, se usa con un sello "IA · ilustrativa" y la línea legal de la lámina lo indica.
+   Si no existe, la presentación muestra el respaldo (fotograma de la campaña o ilustración).
+
+Nota: mientras falten imágenes, la consola del navegador (F12) muestra
+"Failed to load resource: net::ERR_FILE_NOT_FOUND" por cada una. Es normal:
+así comprueba si ya guardó el archivo. No afecta la presentación.
+
+NOMBRE EXACTO DEL ARCHIVO           PROPORCIÓN  LÁMINA                         QUÉ VA
+-------------------------------------------------------------------------------------------------------------
+p01-portada-bebe-sofa.png           16:9        L01 Portada                    Bebé en el sofá barroco dorado (derecha)
+p02-bebe-ready-to-poop.png          2:3         L02 La pieza                   Bebé con moño rojo, boca abierta ("ready to poop")
+p03-bebe-mirada-seria.png           2:3         L02 La pieza                   Bebé de mirada seria
+p04-bebe-alfombra-gateando.png      1:1         L04 La historia                Bebé de cuerpo entero gateando de perfil, de IZQUIERDA a DERECHA, aislado (recorre la alfombra)
+p05-bebe-convertible.png            3:2         L05 El plan                    Bebé en el asiento de cuero del convertible ("cámara a bordo")
+p06-bandeja-panal.png               1:1         L06 La necesidad               Guante blanco + bandeja de plata con pañal (centro)
+p07-bebe-sofa-pujo.png              3:2         L07 ¿Si ha visto cuando…?      Bebé en el sofá con cara de pujo
+p08-bebe-vestido-novia.png          3:2         L08 ¿Qué pasaría si…?          Bebé sobre la cola del vestido de novia
+p09-bebe-cama-blanca.png            16:9        L09 Emociones                  Fondo: bebé en la cama blanca (muy tenue)
+p10-papa-bomba.png                  16:9        L10 Miedos                     Papá cargando al bebé "como bomba"
+p11-guantes-cojin.png               3:2         L10 Miedos                     Guantes blancos acomodando un cojín (paso inicial)
+p12-violinista-bebes.png            16:9        L11 Insights                   Violinista detrás del sofá con dos bebés (pantalla completa en el paso 0 y en el paso 1)
+p13-mayordomos-sofa.png             16:9        L12 Cierre                     Mayordomos cargando el sofá; un bebé mira
+p14-gracias-bebe-dormido.png        16:9        L13 Gracias                    Bebé dormido sobre cojín de seda (derecha)
+e01-alegria.png                     1:1         L09 Emociones                  Medalla ALEGRÍA
+e02-tristeza.png                    1:1         L09 Emociones                  Medalla TRISTEZA
+e03-furia.png                       1:1         L09 Emociones                  Medalla FURIA
+e04-temor.png                       1:1         L09 Emociones                  Medalla TEMOR
+e05-desagrado.png                   1:1         L09 Emociones                  Medalla DESAGRADO
+e06-sorpresa.png                    1:1         L09 Emociones                  Medalla SORPRESA
+o01-sofa-barroco.png                3:2         L03 El set (lote 1) + inventario   Sofá francés capitoné
+o02-cama-barroca.png                3:2         L03 El set (lote 5) + inventario   Cama barroca con tendido blanco
+o03-convertible-blanco.png          16:9        L03 El set (lote 3) + inventario · L05 (carro central)   Convertible blanco, apuntando hacia la DERECHA
+o04-vestido-novia.png               2:3         L03 El set (lote 4) + inventario   Vestido de novia en maniquí
+o05-alfombra-oushak.png             3:2         L03 El set (lote 2) + inventario   Alfombra Oushak
+o06-violin.png                      2:3         L03 El set (lote 7) + inventario   Violín con arco
+o07-guantes-blancos.png             1:1         L03 El set (lote 6) + inventario   Par de guantes blancos
+
+La lista completa (con descripción y respaldo de cada espacio) está en manifest.js, en esta misma carpeta.

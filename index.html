@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E0C0A">
+<meta name="description" content="Huggies «Expensive Sh*t» contada al revés: el camino hacia el insight. Presentación narrada de William Fonseca en equipo con Mariana Silva · Publicidad 2.">
+<title>Expensive $h*t · la historia al revés</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="css/deck.css?v=5">
+<link rel="stylesheet" href="css/escenas.css?v=5">
+</head>
+<body class="is-waiting">
+<!--
+  EXPENSIVE $H*T · v4 storytelling narrado
+  Todo el contenido de las escenas lo arman js/escenas-a.js y js/escenas-b.js a partir de los tiempos
+  de js/narracion.js (voz, beats, palabras y subtítulos). Este archivo solo tiene el escenario, la
+  interfaz del "livestream", la transición y la pantalla de espera.
+-->
+
+<!-- ============ SÍMBOLOS, DEGRADADOS Y FILTROS SVG PROPIOS ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6F5122"/><stop offset=".22" stop-color="#D9B56A"/><stop offset=".45" stop-color="#A67B36"/>
+      <stop offset=".62" stop-color="#F2D995"/><stop offset=".82" stop-color="#8F6F33"/><stop offset="1" stop-color="#C9A158"/>
+    </linearGradient>
+    <linearGradient id="gGoldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9CB82"/><stop offset=".5" stop-color="#A67B36"/><stop offset="1" stop-color="#6F5122"/>
+    </linearGradient>
+    <linearGradient id="gSilver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".35" stop-color="#D9D8D3"/><stop offset=".6" stop-color="#9C9B95"/><stop offset=".8" stop-color="#E8E7E2"/><stop offset="1" stop-color="#8D8C86"/>
+    </linearGradient>
+    <linearGradient id="gBronze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5E3A1E"/><stop offset=".3" stop-color="#C98B55"/><stop offset=".6" stop-color="#8A5530"/><stop offset="1" stop-color="#D9A273"/>
+    </linearGradient>
+    <radialGradient id="gSpot" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFFDF6" stop-opacity="1"/><stop offset=".55" stop-color="#FFF8E6" stop-opacity=".55"/><stop offset="1" stop-color="#FFF8E6" stop-opacity="0"/>
+    </radialGradient>
+    <!-- "se marea": vapor ondulante para la escena que sale -->
+    <filter id="ondaWarp" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feTurbulence id="ondaTurb" type="fractalNoise" baseFrequency="0.004 0.011" numOctaves="2" seed="3" result="n"/>
+      <feDisplacementMap id="ondaDisp" in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="ondaWarp2" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feTurbulence id="ondaTurb2" type="fractalNoise" baseFrequency="0.005 0.013" numOctaves="2" seed="9" result="n"/>
+      <feDisplacementMap id="ondaDisp2" in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <symbol id="i-yt" viewBox="0 0 48 48"><rect x="2" y="2" width="44" height="44" rx="11" fill="currentColor"/><rect x="9" y="14" width="30" height="20" rx="6" fill="none" stroke="#fff" stroke-width="3"/><path d="M21 19.5v9l7.5-4.5z" fill="#fff"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 48 48"><rect x="2" y="2" width="44" height="44" rx="11" fill="currentColor"/><path d="M26 11v17.5a5.8 5.8 0 1 1-5.8-5.8" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><path d="M26 11.5c.8 4.2 3.8 7 8.2 7.4" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 48 48"><rect x="2" y="2" width="44" height="44" rx="11" fill="currentColor"/><rect x="11" y="11" width="26" height="26" rx="8" fill="none" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="6" fill="none" stroke="#fff" stroke-width="3"/><circle cx="31.5" cy="16.5" r="1.9" fill="#fff"/></symbol>
+  <symbol id="i-speaker" viewBox="0 0 32 32"><path d="M4 12h5l7-6v20l-7-6H4z" fill="currentColor"/><path d="M21 11c2 2.6 2 7.4 0 10M25 7.5c4 4.6 4 12.4 0 17" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="corner" viewBox="0 0 150 150">
+    <path d="M2 26C34 6 76 4 104 20c22 12 22 38 2 42-16 3-24-11-16-19 7-6 16-1 13 6" fill="none" stroke="url(#gGold)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M26 2C6 34 4 76 20 104c12 22 38 22 42 2 3-16-11-24-19-16-6 7-1 16 6 13" fill="none" stroke="url(#gGold)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10 10c28 6 46 24 52 52-22-6-40-22-52-52z" fill="url(#gGold)" stroke="#6F5122" stroke-width="1.2"/>
+    <circle cx="72" cy="72" r="7" fill="url(#gGold)" stroke="#6F5122" stroke-width="1"/><circle cx="86" cy="86" r="4.5" fill="url(#gGold)"/>
+    <circle cx="12" cy="12" r="13" fill="url(#gGold)" stroke="#6F5122" stroke-width="1.2"/><circle cx="12" cy="12" r="5" fill="#F2D995"/>
+  </symbol>
+  <symbol id="crest" viewBox="0 0 280 100">
+    <path d="M98 92c0-52 84-52 84 0z" fill="url(#gGold)" stroke="#6F5122" stroke-width="1.4"/>
+    <path d="M140 92L108 54M140 92l-18-46M140 92V42M140 92l18-46M140 92l32-38" stroke="#6F5122" stroke-width="1.6" opacity=".55"/>
+    <path d="M98 84C66 86 40 64 52 40c8-16 30-10 26 4-3 9-13 8-14 2" fill="none" stroke="url(#gGold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M182 84c32 2 58-20 46-44-8-16-30-10-26 4 3 9 13 8 14 2" fill="none" stroke="url(#gGold)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="140" cy="30" r="9" fill="url(#gGold)" stroke="#6F5122" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="swirl" viewBox="0 0 100 100">
+    <path d="M12 86c-9 0-9-15 4-17 14-2 54-2 68 0 13 2 13 17 4 17z M23 69c-8-2-6-14 4-15 14-2 32-2 46 0 10 1 12 13 4 15z M33 54c-6-2-4-11 4-12 8-1 18-1 25 1 8 2 6 11 2 11z M41 42c-1-10 13-9 15-17 1-6-5-9-9-7 8-3 14 3 12 11-2 8-10 10-3 13z" fill="currentColor"/>
+  </symbol>
+  <symbol id="spark" viewBox="-50 -50 100 100"><path d="M0-48C4-12 12-4 48 0 12 4 4 12 0 48-4 12-12 4-48 0-12-4-4-12 0-48z" fill="currentColor"/></symbol>
+  <symbol id="cloche" viewBox="0 0 320 210">
+    <ellipse cx="160" cy="188" rx="152" ry="16" fill="url(#gSilver)" stroke="#8D8C86" stroke-width="1.5"/>
+    <path d="M22 186C22 84 298 84 298 186z" fill="url(#gSilver)" stroke="#8D8C86" stroke-width="1.5"/>
+    <path d="M62 160c4-38 38-62 76-66" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+    <rect x="150" y="70" width="20" height="18" rx="4" fill="url(#gSilver)" stroke="#8D8C86" stroke-width="1.2"/>
+    <circle cx="160" cy="62" r="14" fill="url(#gSilver)" stroke="#8D8C86" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="tray" viewBox="0 0 360 60">
+    <ellipse cx="180" cy="30" rx="176" ry="22" fill="url(#gSilver)" stroke="#8D8C86" stroke-width="1.5"/>
+    <ellipse cx="180" cy="27" rx="150" ry="14" fill="none" stroke="#fff" stroke-width="3" opacity=".7"/>
+  </symbol>
+  <symbol id="diaper" viewBox="0 0 200 170">
+    <path d="M14 18q86-14 172 0l-6 46q-30 10-40 46-6 30-6 50H66q0-20-6-50-10-36-40-46z" fill="#fff" stroke="currentColor" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M26 42q74-10 148 0" fill="none" stroke="currentColor" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round" opacity=".6"/>
+  </symbol>
+  <symbol id="dad" viewBox="0 0 80 120">
+    <circle cx="40" cy="22" r="16" fill="currentColor"/>
+    <path d="M10 118V70q0-26 30-26t30 26v48z" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<div class="shell" id="shell">
+<div id="stage" class="stage">
+  <!-- ======= ESTUDIO BLANCO SIEMPRE VIVO ======= -->
+  <div class="studio" id="studio">
+    <div class="bg"></div>
+    <div class="damask" id="damask"></div>
+    <div class="floor"></div>
+    <div class="sweep"></div>
+  </div>
+  <canvas class="fx" id="fx" width="1920" height="1080"></canvas>
+
+  <!-- ======= ESCENAS (las arma escenas-*.js) ======= -->
+  <main class="scenes" id="scenes"></main>
+
+  <!-- ======= TRANSICIÓN: onda roja de mal olor ======= -->
+  <svg class="onda" id="onda" viewBox="0 0 1920 1080" aria-hidden="true">
+    <defs><linearGradient id="ondaG" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1080"><stop offset="0" stop-color="#E3242B"/><stop offset=".55" stop-color="#CD1618"/><stop offset="1" stop-color="#A80F12"/></linearGradient></defs>
+    <path class="o-rim"/><path class="o-red"/><path class="o-in"/><path class="o-hi"/>
+    <g class="o-lines"></g>
+  </svg>
+
+  <!-- ======= INTERFAZ DEL LIVESTREAM ======= -->
+  <div class="ui" id="ui">
+    <div class="segs" id="segs"></div>
+    <div class="rec"><i></i><span>EN VIVO</span><b id="chap"></b></div>
+    <div class="status" id="status" title="H: atajos">
+      <span data-k="voz"><i></i>VOZ</span><span data-k="subs"><i></i>SUBS</span><span data-k="modo" class="txt">POR ESCENA</span>
+    </div>
+    <p class="legal" id="legal" aria-live="off"></p>
+    <div class="cd" id="cd" title="Cuenta regresiva del show">
+      <img class="cd-logo" src="assets/logos/huggies-logo.svg" alt="">
+      <b class="anton">EXPENSIVE $H*T</b>
+      <svg class="cd-digits" id="cdDigits" viewBox="0 0 160 52"></svg>
+      <span class="anton cd-recap">RECAP</span>
+    </div>
+    <div class="subs" id="subs"><p class="sub-band" id="subBand"></p></div>
+    <button class="next-hint" id="nextHint" type="button"><span class="nh-k">→</span><span class="nh-l">Siguiente</span><b id="nextName"></b></button>
+    <div class="pausa" id="pausa"><svg viewBox="0 0 40 40"><rect x="9" y="7" width="8" height="26" rx="2"/><rect x="23" y="7" width="8" height="26" rx="2"/></svg>PAUSA</div>
+    <div class="toast" id="toast"></div>
+  </div>
+
+  <!-- ======= AYUDA (H o ?) ======= -->
+  <section class="help" id="help" aria-hidden="true">
+    <div class="help-box">
+      <p class="help-t anton">ATAJOS DEL SHOW</p>
+      <dl>
+        <div><dt>Clic / Espacio</dt><dd>empezar · pausar y reanudar (al final de una escena, pasa a la siguiente)</dd></div>
+        <div><dt>→ / ←</dt><dd>escena siguiente · anterior (o reiniciar la actual)</dd></div>
+        <div><dt>↓ / ↑</dt><dd>saltar al momento siguiente · anterior de la escena</dd></div>
+        <div><dt>A</dt><dd>modo automático completo (hasta el GRACIAS) · otra vez: por escena</dd></div>
+        <div><dt>V</dt><dd>voz on/off (sin voz, sigue con subtítulos y reloj)</dd></div>
+        <div><dt>S</dt><dd>subtítulos on/off</dd></div>
+        <div><dt>M</dt><dd>música on/off</dd></div>
+        <div><dt>F</dt><dd>pantalla completa</dd></div>
+        <div><dt>H / ?</dt><dd>esta ayuda · Esc para cerrar</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ======= PANTALLA DE ESPERA ======= -->
+  <section class="wait" id="wait">
+    <div class="wait-lockup"><img class="logo-w" src="assets/logos/huggies-logo.svg" alt="Huggies"><b class="anton">EXPENSIVE $H*T</b></div>
+    <p class="wait-soon">Transmitiendo pronto<span class="dots"><i>.</i><i>.</i><i>.</i></span></p>
+    <p class="wait-hint"><svg><use href="#i-speaker"/></svg><span class="k-only">Clic o barra espaciadora para empezar · con sonido</span><span class="t-only">Toca para empezar · con sonido</span></p>
+    <p class="wait-keys"><span class="k-only">H: atajos · A: automático · V: voz · S: subtítulos · o el menú ⋮ de arriba</span><span class="t-only">Menú ⋮ arriba a la derecha: voz · subtítulos · automático · atajos</span></p>
+    <p class="wait-rot"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="15" y="6" width="18" height="32" rx="4" transform="rotate(-90 24 22)"/><path d="M10 36a16 16 0 0 0 26 4M36 40l1-6-6 1"/></svg>Gira el celular para verlo en grande</p>
+    <p class="wait-who">William Fonseca, en equipo con Mariana Silva · Publicidad 2</p>
+  </section>
+</div>
+
+<!-- ======= CONTROLES (⋮): fuera del escenario escalado, para que se puedan tocar en el celular ======= -->
+<button class="mbtn" id="mbtn" type="button" aria-label="Abrir controles" aria-haspopup="dialog" aria-controls="menu" aria-expanded="false"><i></i><i></i><i></i></button>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-labelledby="menuT" aria-hidden="true">
+  <div class="menu-box">
+    <header class="menu-hd">
+      <p class="menu-t anton" id="menuT">CONTROLES DEL SHOW</p>
+      <button class="menu-x" type="button" data-act="close" aria-label="Cerrar controles"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </header>
+    <div class="menu-cols">
+      <div class="menu-col">
+        <div class="menu-nav">
+          <button type="button" data-act="prev" aria-label="Escena anterior"><svg viewBox="0 0 24 24"><path d="M19 5v14L8 12zM6 5v14"/></svg></button>
+          <button type="button" data-act="pause" class="mn-play" aria-label="Pausar o seguir"><svg class="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg><svg class="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15L19.5 12z"/></svg></button>
+          <button type="button" data-act="next" aria-label="Escena siguiente"><svg viewBox="0 0 24 24"><path d="M5 5v14l11-7zM18 5v14"/></svg></button>
+        </div>
+        <div class="menu-tg">
+          <button type="button" class="tg" data-tg="voz" role="switch" aria-checked="true"><span class="tg-l"><b>Voz</b><em>la narración en off</em></span><kbd>V</kbd><i class="sw"></i></button>
+          <button type="button" class="tg" data-tg="subs" role="switch" aria-checked="true"><span class="tg-l"><b>Subtítulos</b><em>el texto de la voz, abajo</em></span><kbd>S</kbd><i class="sw"></i></button>
+          <button type="button" class="tg" data-tg="auto" role="switch" aria-checked="false"><span class="tg-l"><b>Automático</b><em>todo seguido hasta el GRACIAS</em></span><kbd>A</kbd><i class="sw"></i></button>
+          <button type="button" class="tg" data-tg="music" role="switch" aria-checked="true"><span class="tg-l"><b>Música</b><em>la pista del teaser</em></span><kbd>M</kbd><i class="sw"></i></button>
+          <button type="button" class="tg" data-tg="full" role="switch" aria-checked="false"><span class="tg-l"><b>Pantalla completa</b><em>sin barras del navegador</em></span><kbd>F</kbd><i class="sw"></i></button>
+          <button type="button" class="tg t-only" data-tg="rot" role="switch" aria-checked="true"><span class="tg-l"><b>Girar si está vertical</b><em>se ve horizontal sin girar la pantalla</em></span><i class="sw"></i></button>
+        </div>
+      </div>
+      <div class="menu-col">
+        <p class="menu-h">Ir a la escena</p>
+        <ol class="menu-sc" id="menuSc"></ol>
+        <button type="button" class="menu-keys k-only" data-act="help"><kbd>H</kbd>Ver todos los atajos de teclado</button>
+        <p class="menu-gest t-only"><b>En el celular:</b> toca la pantalla para pausar o seguir · desliza ← → para cambiar de escena</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/SplitText.min.js"></script>
+<script src="assets/vendor/CustomEase.min.js"></script>
+<script src="assets/vendor/DrawSVGPlugin.min.js"></script>
+<script src="assets/vendor/MotionPathPlugin.min.js"></script>
+<script src="assets/img-ia/manifest.js?v=5"></script>
+<script src="js/narracion.js?v=5"></script>
+<script src="js/fx.js?v=5"></script>
+<script src="js/slots.js?v=5"></script>
+<script src="js/onda.js?v=5"></script>
+<script src="js/kit.js?v=5"></script>
+<script src="js/escenas-a.js?v=5"></script>
+<script src="js/escenas-b.js?v=5"></script>
+<script src="js/escenas-c.js?v=5"></script>
+<script src="js/escenas-d.js?v=5"></script>
+<script src="js/deck.js?v=5"></script>
+</body>
+</html>
