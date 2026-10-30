@@ -50,7 +50,7 @@
       </div>
       <div class="lay s04-b2">
         <div class="sup o0 s04-seg" style="top:128px;--ss:52px"><span class="s">Resultados · según la marca (case film de Cannes)</span></div>
-        <div class="s04-fig s04-f1 o0"><span class="anton au s04-157">0</span><span class="anton gold-dk">IMPRESIONES GANADAS</span></div>
+        <div class="s04-fig s04-f1 o0"><span class="anton au s04-157">0</span><span class="anton gold-dk">IMPRESIONES SIN PAGAR PUBLICIDAD</span></div>
         <div class="s04-fig s04-f2 o0"><span class="anton au s04-570">0</span><span class="anton gold-dk">MEDIOS HABLANDO DEL TEMA</span></div>
         <p class="ctr anton au o0 s04-lt" style="top:420px;font-size:80px">4 LEONES EN CANNES</p>
         <div class="s04-lions">
@@ -244,15 +244,15 @@
       // ---------- beat 4: las dos preguntas, en tipografía (v5: sin puertas)
       A.out(q(cam, '.s05-b2'), T.b(4) - .05, { d: .4, y: false });
       A.out(q(cam, '.s05-b3'), T.b(4) - .05, { d: .4, y: false });
-      A.rise(q(cam, '.s05-dos'), T.w(4, ['clase']) - .2, { y: 14 });
+      A.rise(q(cam, '.s05-dos'), T.b(4) + .1, { y: 14 });          // v5.1: sin huecos en blanco antes de las preguntas
       const qs = qa(cam, '.s05-q');
-      qs.forEach((g, k) => {
-        const t = T.w(4, ['dos', 'preguntas']) - .15 + k * .45;
-        A.rise(g, t, { y: 50 });
-        A.track(q(g, '.s05-qt'), t, { d: .9 });
-        A.pop(q(g, '.s05-qn'), t + .1, { from: .3, rot: -14, toRot: 0 });
+      [T.w(4, ['encontrar']) - .1, T.w(4, ['clase']) - .25].forEach((t, k) => {
+        A.rise(qs[k], t, { y: 50 });
+        A.track(q(qs[k], '.s05-qt'), t, { d: .9 });
+        A.pop(q(qs[k], '.s05-qn'), t + .1, { from: .3, rot: -14, toRot: 0 });
       });
-      A.fade(q(cam, '.s05-qrule'), T.w(4, ['dos', 'preguntas']) + .2, .5);
+      A.fade(q(cam, '.s05-qrule'), T.w(4, ['clase']) - .1, .5);
+      tl.fromTo(qa(cam, '.s05-qn'), { scale: 1 }, { scale: 1.16, duration: .22, yoyo: true, repeat: 1, ease: 'power2.out', stagger: .12, immediateRender: false }, T.w(4, ['dos', 'preguntas']) + .1);
       tl.fromTo(qs[0], { scale: 1 }, { scale: 1.06, duration: .6, ease: 'back.out(2)', immediateRender: false }, T.e(4) + .2);
       tl.to(qs[1], { opacity: .45, duration: .6 }, T.e(4) + .2);
     }
@@ -335,9 +335,9 @@
       </div>`;
 
       // ---------- beat 0: la primera pregunta (v5: sin puerta)
-      A.rise(q(cam, '.s06-1'), T.w(0, ['primera']) - .4, { y: 14 });
-      A.show(q(cam, '.s06-t'), T.w(0, ['primera']) - .2);
-      A.rise(q(cam, '.s06-t .fr'), T.w(0, ['primera']) - .2, { y: 24 });
+      A.rise(q(cam, '.s06-1'), .05, { y: 14 });                       // v5.1: la escena no arranca vacía
+      A.show(q(cam, '.s06-t'), .05);
+      A.rise(q(cam, '.s06-t .fr'), .15, { y: 24 });
       A.track(q(cam, '.s06-t .anton'), T.w(0, ['visto', 'has']) - .1, { d: 1.1 });
       // ---------- beats 1–8: una observación por pantalla, con su respuesta
       const hdr = q(cam, '.s06-hdr'), dots = qa(hdr, '.dots b');

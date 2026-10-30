@@ -147,9 +147,9 @@
       A.track(title, tEx - .05, { d: 1.0, from: '.5em' });
       A.censor(q(title, '.cen'), T.e(3) + .08);
       A.shake(T.e(3) + .12, 7);
-      A.rise(q(cam, '.s01-tr'), T.e(3) + .7, { y: 24 });
+      A.rise(q(cam, '.s01-tr'), T.e(3) + .3, { y: 24, d: .5 });
       // --- beat 4: créditos estilo "host" del livestream
-      A.out(q(cam, '.s01-tr'), b4 - .05, { d: .3 });
+      A.out(q(cam, '.s01-tr'), Math.max(b4 - .05, T.w(4, ['william']) + .1), { d: .3 });   // v5.1: se lee ~1,5 s y sale antes de los créditos
       const tWi = T.w(4, ['william']) - .3;   // B-17: EXPENSIVE $H*T se luce más antes de subir
       tl.to(logo, { y: -104, scale: .62, duration: .8, ease: 'expo.inOut' }, tWi);
       tl.to(title, { y: -208, scale: .58, duration: .8, ease: 'expo.inOut' }, tWi);
@@ -345,7 +345,7 @@
       A.pop(pw[1], T.w(3, ['pasteles']) - .05, { from: .4 });
       A.pop(q(pas, '.s02-ang'), T.w(3, ['angelicales', 'bebes']) - .05, { from: .4 });
       tl.fromTo(q(pas, '.halo'), { y: 0 }, { y: -8, duration: .8, yoyo: true, repeat: 3, ease: 'sine.inOut', immediateRender: false }, T.w(3, ['angelicales', 'bebes']) + .3);
-      tl.to(pas, { filter: 'grayscale(1) brightness(.92)', duration: .6, ease: 'power1.inOut' }, T.e(3) - .1);
+      tl.fromTo(pas, { filter: 'grayscale(0) brightness(1)' }, { filter: 'grayscale(1) brightness(.92)', duration: .6, ease: 'power1.inOut', immediateRender: false }, T.e(3) - .1);   // v5.1: con inicio explícito (antes partía de brillo 0 = cuadro negro)
       A.draw(q(cam, '.s02-x path'), T.e(3) + .2, .4, { ease: 'power4.out' });
       A.show(q(cam, '.s02-x'), T.e(3) + .2);
       // ---------- beat 4: 2025, el poncho antipopó y la casa en plástico
@@ -515,7 +515,8 @@
       objs.forEach((o, k) => {
         tl.fromTo(o, { autoAlpha: 0, y: -260, scale: .9 }, { autoAlpha: 1, y: 0, scale: 1, duration: .75, ease: 'back.out(1.3)', immediateRender: false }, to[k] - .3);
         tl.fromTo(tags[k], { autoAlpha: 0, rotation: -16, y: -40 }, { autoAlpha: 1, rotation: 0, y: 0, duration: 1, ease: 'elastic.out(1,.45)', immediateRender: false }, tp[k] - .15);
-        A.count(sum, tp[k] - .05, .8, acc, acc + vals[k], v => 'US$' + M.fmtEs(v), { ease: 'power2.out' });
+        // v5.1: el conteo termina antes de que la escena siga (con la voz rápida, el del vestido quedaba a medias)
+        A.count(sum, tp[k] - .05, Math.max(.3, Math.min(.8, T.b(4) - .35 - (tp[k] - .05))), acc, acc + vals[k], v => 'US$' + M.fmtEs(v), { ease: 'power2.out' });
         acc += vals[k];
       });
       sum.textContent = 'US$0';

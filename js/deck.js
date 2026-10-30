@@ -76,6 +76,36 @@
     return r;
   }
 
+  /* ---------- v5.1 · choques de entrada/salida ----------
+     Con la voz más rápida, a veces la salida de un elemento empieza mientras su entrada todavía corre
+     (p. ej. una entrada de 0,8 s y la salida 0,3 s después): la entrada terminaba después y el elemento
+     se quedaba pegado encima de lo siguiente. Aquí la salida siempre manda: la entrada se acorta para
+     terminar justo cuando empieza la salida. Lo que se corrige queda en window.DECK_FADES (auditoría). */
+  window.DECK_FADES = {};
+  function startIn(t, tl) { let s = t.startTime(), p = t.parent; while (p && p !== tl) { s = p.startTime() + s / (p.timeScale() || 1); p = p.parent; } return s; }
+  function alphaOf(t) { const v = t.vars || {}; const a = v.autoAlpha != null ? v.autoAlpha : v.opacity; return typeof a === 'number' ? a : null; }
+  function resolveFades(tl, id) {
+    const byEl = new Map(), log = [];
+    tl.getChildren(true, true, false).forEach(t => {
+      const a = alphaOf(t); if (a == null) return;
+      const s0 = startIn(t, tl), d = t.duration();
+      t.targets().forEach(el => { if (!el || !el.nodeType) return; if (!byEl.has(el)) byEl.set(el, []); byEl.get(el).push({ t, s: s0, e: s0 + d, show: a > .05 }); });
+    });
+    const name = el => (el.className && el.className.baseVal != null ? el.className.baseVal : el.className || el.tagName).toString().split(' ').filter(c => c && c !== 'o0').slice(0, 3).join('.');
+    byEl.forEach((list, el) => {
+      list.sort((x, y) => x.s - y.s);
+      list.forEach((A, k) => {
+        if (!A.show) return;
+        const B = list.slice(k + 1).find(x => !x.show && x.s >= A.s);
+        if (B && B.s < A.e - .02) {
+          log.push({ el: name(el), entra: +A.s.toFixed(2), terminaba: +A.e.toFixed(2), sale: +B.s.toFixed(2) });
+          A.t.duration(Math.max(.05, B.s - A.s)); A.e = B.s;
+        }
+      });
+    });
+    window.DECK_FADES[id] = log;
+  }
+
   function buildScene(i) {
     const data = LIST[i];
     const def = DEFS[data.id] || DEFS._generic;
@@ -88,6 +118,7 @@
     const tl = gsap.timeline({ paused: true });
     try { def.build(root.querySelector('.cam'), T, tl, KIT.anim(tl, T, root), root); }
     catch (e) { console.error('Escena', data.id, e); }
+    try { resolveFades(tl, data.id); } catch (e) { console.error('Choques', data.id, e); }
     tl.set({}, {}, data.dur + .05);
     window.SLOTS && SLOTS.mount(root);
     const sc = { i, data, def, root, tl, T, clock: 0, playing: false, ended: false, regions: regionsOf(data), audio: null, audioOK: true, waitAudio: false };

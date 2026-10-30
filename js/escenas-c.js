@@ -316,7 +316,7 @@
       const lib = q(cam, '.s09-lib');
       A.rise(lib, T.w(6, ['libertad']) - .2, { y: 30 });
       tl.fromTo(q(lib, '.lock'), { autoAlpha: 0, y: -80 }, { autoAlpha: 1, y: 0, duration: .5, ease: 'bounce.out', immediateRender: false }, T.w(6, ['encerrado']) - .3);
-      tl.fromTo(q(lib, '.anton'), { filter: 'grayscale(0)' }, { filter: 'grayscale(1) brightness(.85)', duration: .4, immediateRender: false }, T.w(6, ['encerrado']));
+      tl.fromTo(q(lib, '.anton'), { filter: 'grayscale(0) brightness(1)' }, { filter: 'grayscale(1) brightness(.85)', duration: .4, immediateRender: false }, T.w(6, ['encerrado']));
       tl.fromTo(q(lib, '.shk'), { y: 0 }, { y: -26, duration: .4, ease: 'back.out(3)', immediateRender: false }, T.w(6, ['jaguis', 'resolver']) - .1);
       tl.to(q(lib, '.anton'), { filter: 'grayscale(0) brightness(1)', duration: .5 }, T.w(6, ['jaguis', 'resolver']));
       A.pop(q(lib, '.s09-hg'), T.w(6, ['jaguis', 'resolver']), { from: .3 });
