@@ -331,7 +331,7 @@
       <div class="lay s06-b9">
         ${OB.map((o, k) => { const P = [[200, 210, -4], [1340, 200, 3], [130, 520, 3], [1400, 520, -3], [330, 760, -2], [1250, 780, 2], [760, 170, 2], [820, 840, -3]][k]; return `<p class="abs anton gold-dk s06-kw o0" style="left:${P[0]}px;top:${P[1]}px;transform:rotate(${P[2]}deg)">${o.k}</p>`; }).join('')}
         <p class="ctr o0 s06-nadie" style="top:350px">${M.strike('<span class="fr ink" style="font-size:64px">Nadie habla del popó</span>')}</p>
-        <p class="ctr anton red o0 s06-dt" style="top:470px;font-size:250px;line-height:.9">DÓNDE TERMINA</p>
+        <p class="ctr anton red o0 s06-dt" style="top:470px;font-size:250px;line-height:.9">CUANDO SE SALE</p>
       </div>`;
 
       // ---------- beat 0: la primera pregunta (v5: sin puerta)
@@ -417,8 +417,8 @@
         else tl.to(w, { x: cx - px, y: cy - py, scale: .3, autoAlpha: 0, duration: .6, ease: 'expo.in' }, tTo + k * .04);
       });
       tl.to(nad, { y: -110, opacity: .6, duration: .6, ease: 'expo.inOut' }, tTo);
-      A.slam(q(cam, '.s06-dt'), T.w(9, ['donde']) - .05, { from: 2.2, amp: 16 });
-      A.flash(T.w(9, ['donde']) - .05, { a: .5 });
+      A.slam(q(cam, '.s06-dt'), T.w(9, ['cuando']) - .05, { from: 2.2, amp: 16 });   // v5.2: el insight es lo que pasa cuando se sale
+      A.flash(T.w(9, ['cuando']) - .05, { a: .5 });
     }
   };
 })();

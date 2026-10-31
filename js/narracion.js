@@ -2,12 +2,12 @@
 window.NARRACION = {
  "version": 5,
  "voz": "william_2_reels",
- "total": 550.07,
+ "total": 553.93,
  "escenas": [
   {
    "id": "s01",
    "titulo": "Portada: el gancho",
-   "audio": "assets/voz/s01.mp3?v=5",
+   "audio": "assets/voz/s01.mp3?v=6",
    "dur": 38.8,
    "beats": [
     {
@@ -586,7 +586,7 @@ window.NARRACION = {
   {
    "id": "s02",
    "titulo": "Antes: el enemigo",
-   "audio": "assets/voz/s02.mp3?v=5",
+   "audio": "assets/voz/s02.mp3?v=6",
    "dur": 46.49,
    "beats": [
     {
@@ -1335,7 +1335,7 @@ window.NARRACION = {
   {
    "id": "s03",
    "titulo": "La campaña: cómo funcionó",
-   "audio": "assets/voz/s03.mp3?v=5",
+   "audio": "assets/voz/s03.mp3?v=6",
    "dur": 46.11,
    "beats": [
     {
@@ -2029,7 +2029,7 @@ window.NARRACION = {
   {
    "id": "s04",
    "titulo": "Resultado y veredicto",
-   "audio": "assets/voz/s04.mp3?v=5",
+   "audio": "assets/voz/s04.mp3?v=6",
    "dur": 31.77,
    "beats": [
     {
@@ -2489,7 +2489,7 @@ window.NARRACION = {
   {
    "id": "s05",
    "titulo": "Al revés: la necesidad",
-   "audio": "assets/voz/s05.mp3?v=5",
+   "audio": "assets/voz/s05.mp3?v=6",
    "dur": 30.73,
    "beats": [
     {
@@ -3024,1301 +3024,1321 @@ window.NARRACION = {
   {
    "id": "s06",
    "titulo": "¿Si ha visto cuando alguien…?",
-   "audio": "assets/voz/s06.mp3?v=5",
-   "dur": 81.77,
+   "audio": "assets/voz/s06.mp3?v=6",
+   "dur": 82.1,
    "beats": [
     {
      "i": 0,
      "t0": 0.23,
-     "t1": 3.28,
+     "t1": 3.52,
      "sub": "La primera pregunta: ¿Si ha visto cuando alguien…?",
      "cue": "Título gigante; el sofá como escenario de observación.",
      "w": [
       [
        0.35,
-       0.93,
+       1.03,
        "La"
       ],
       [
-       0.93,
-       1.23,
+       1.03,
+       1.35,
        "primera"
       ],
       [
-       1.23,
-       1.77,
+       1.35,
+       1.91,
        "pregunta:"
       ],
       [
-       1.93,
-       2.22,
+       2.15,
+       2.4,
        "¿Si"
       ],
       [
-       2.22,
-       2.36,
+       2.4,
+       2.54,
        "ha"
       ],
       [
-       2.36,
-       2.64,
+       2.54,
+       2.82,
        "visto"
       ],
       [
-       2.64,
-       2.88,
+       2.82,
+       3.1,
        "cuando"
       ],
       [
-       2.88,
-       3.28,
+       3.1,
+       3.52,
        "alguien…?"
       ]
      ]
     },
     {
      "i": 1,
-     "t0": 3.7,
-     "t1": 15.01,
+     "t0": 3.75,
+     "t1": 14.47,
      "sub": "¿Si ha visto cuando alguien le huele la cola al bebé en plena reunión, disimulando con un besito? Es la forma más vergonzosa de revisar el pañal, y la más necesaria.",
      "cue": "Observación 1: pregunta grande + respuesta; ícono propio nariz + corazón.",
      "w": [
       [
-       3.82,
-       4.13,
+       3.87,
+       4.08,
        "¿Si"
       ],
       [
-       4.13,
-       4.27,
+       4.08,
+       4.22,
        "ha"
       ],
       [
-       4.27,
-       4.61,
+       4.22,
+       4.48,
        "visto"
       ],
       [
-       4.61,
-       4.99,
+       4.48,
+       4.8,
        "cuando"
       ],
       [
-       4.99,
-       5.39,
+       4.8,
+       5.16,
        "alguien"
       ],
       [
-       5.39,
-       5.59,
+       5.16,
+       5.34,
        "le"
       ],
       [
-       5.59,
-       5.85,
+       5.34,
+       5.74,
        "huele"
       ],
       [
-       5.85,
-       6.03,
+       5.74,
+       5.92,
        "la"
       ],
       [
-       6.03,
-       6.27,
+       5.92,
+       6.24,
        "cola"
       ],
       [
-       6.27,
-       6.41,
+       6.24,
+       6.42,
        "al"
       ],
       [
-       6.41,
-       6.71,
+       6.42,
+       6.72,
        "bebé"
       ],
       [
-       6.71,
-       6.93,
+       6.72,
+       6.9,
        "en"
       ],
       [
-       6.93,
-       7.23,
+       6.9,
+       7.24,
        "plena"
       ],
       [
-       7.23,
-       7.79,
+       7.24,
+       7.84,
        "reunión,"
       ],
       [
-       7.79,
-       8.97,
+       7.96,
+       8.91,
        "disimulando"
       ],
       [
-       8.97,
-       9.17,
+       8.91,
+       9.11,
        "con"
       ],
       [
-       9.17,
-       9.37,
+       9.11,
+       9.27,
        "un"
       ],
       [
-       9.37,
-       9.85,
+       9.27,
+       9.73,
        "besito?"
       ],
       [
-       10.18,
-       10.52,
+       10.09,
+       10.43,
        "Es"
       ],
       [
-       10.52,
-       10.64,
+       10.43,
+       10.57,
        "la"
       ],
       [
-       10.64,
-       10.98,
+       10.57,
+       10.87,
        "forma"
       ],
       [
-       10.98,
-       11.29,
+       10.87,
+       11.09,
        "más"
       ],
       [
-       11.29,
-       12.19,
+       11.09,
+       11.75,
        "vergonzosa"
       ],
       [
-       12.19,
-       12.38,
+       11.75,
+       11.89,
        "de"
       ],
       [
-       12.38,
-       12.96,
+       11.89,
+       12.41,
        "revisar"
       ],
       [
-       12.96,
-       13.12,
+       12.41,
+       12.53,
        "el"
       ],
       [
-       13.12,
-       13.65,
+       12.53,
+       13.0,
        "pañal,"
       ],
       [
-       13.65,
-       13.99,
+       13.07,
+       13.43,
        "y"
       ],
       [
-       13.99,
-       14.11,
+       13.43,
+       13.57,
        "la"
       ],
       [
-       14.11,
-       14.35,
+       13.57,
+       13.81,
        "más"
       ],
       [
-       14.35,
-       15.01,
+       13.81,
+       14.47,
        "necesaria."
       ]
      ]
     },
     {
      "i": 2,
-     "t0": 15.26,
-     "t1": 23.78,
+     "t0": 15.14,
+     "t1": 23.08,
      "sub": "¿Si ha visto cuando alguien se congela porque el bebé pone cara de estar pujando? Se para el mundo, y uno reza: que aguante, que aguante.",
      "cue": "Observación 2: todo se congela (efecto pausa).",
      "w": [
       [
-       15.38,
-       16.18,
+       15.26,
+       15.78,
        "¿Si"
       ],
       [
-       16.18,
-       16.3,
+       15.78,
+       15.9,
        "ha"
       ],
       [
-       16.3,
-       16.58,
+       15.9,
+       16.14,
        "visto"
       ],
       [
-       16.58,
-       16.84,
+       16.14,
+       16.4,
        "cuando"
       ],
       [
-       16.84,
-       17.16,
+       16.4,
+       16.66,
        "alguien"
       ],
       [
-       17.16,
-       17.34,
+       16.66,
+       16.8,
        "se"
       ],
       [
-       17.34,
-       17.84,
+       16.8,
+       17.24,
        "congela"
       ],
       [
-       17.84,
-       18.14,
+       17.24,
+       17.5,
        "porque"
       ],
       [
-       18.14,
-       18.3,
+       17.5,
+       17.66,
        "el"
       ],
       [
-       18.3,
-       18.56,
+       17.66,
+       17.9,
        "bebé"
       ],
       [
-       18.56,
-       18.84,
+       17.9,
+       18.2,
        "pone"
       ],
       [
-       18.84,
-       19.1,
+       18.2,
+       18.5,
        "cara"
       ],
       [
-       19.1,
-       19.24,
+       18.5,
+       18.64,
        "de"
       ],
       [
-       19.24,
-       19.46,
+       18.64,
+       18.86,
        "estar"
       ],
       [
-       19.46,
-       20.0,
+       18.86,
+       19.38,
        "pujando?"
       ],
       [
-       20.46,
-       20.66,
+       19.77,
+       19.97,
        "Se"
       ],
       [
-       20.66,
-       20.84,
+       19.97,
+       20.13,
        "para"
       ],
       [
-       20.84,
-       21.02,
+       20.13,
+       20.27,
        "el"
       ],
       [
-       21.02,
-       21.3,
+       20.27,
+       20.57,
        "mundo,"
       ],
       [
-       21.3,
-       21.58,
+       20.57,
+       20.79,
        "y"
       ],
       [
-       21.58,
-       21.76,
+       20.79,
+       20.97,
        "uno"
       ],
       [
-       21.76,
-       22.24,
+       20.97,
+       21.41,
        "reza:"
       ],
       [
-       22.35,
-       22.56,
+       21.62,
+       21.89,
        "que"
       ],
       [
-       22.56,
-       23.1,
+       21.89,
+       22.43,
        "aguante,"
       ],
       [
-       23.22,
-       23.3,
+       22.54,
+       22.62,
        "que"
       ],
       [
-       23.3,
-       23.78,
+       22.62,
+       23.08,
        "aguante."
       ]
      ]
     },
     {
      "i": 3,
-     "t0": 24.59,
-     "t1": 33.56,
+     "t0": 23.24,
+     "t1": 32.26,
      "sub": "¿Si ha visto cuando alguien carga al bebé con los brazos estirados, como si llevara una bomba? Lo lleva del sofá al baño sin que toque nada.",
      "cue": "Observación 3: mecha encendida.",
      "w": [
       [
-       24.71,
-       25.13,
+       23.36,
+       23.8,
        "¿Si"
       ],
       [
-       25.13,
-       25.29,
+       23.8,
+       23.94,
        "ha"
       ],
       [
-       25.29,
-       25.57,
+       23.94,
+       24.26,
        "visto"
       ],
       [
-       25.57,
-       25.89,
+       24.26,
+       24.64,
        "cuando"
       ],
       [
-       25.89,
-       26.27,
+       24.64,
+       25.06,
        "alguien"
       ],
       [
-       26.27,
-       26.61,
+       25.06,
+       25.44,
        "carga"
       ],
       [
-       26.61,
-       26.77,
+       25.44,
+       25.58,
        "al"
       ],
       [
-       26.77,
-       27.11,
+       25.58,
+       25.82,
        "bebé"
       ],
       [
-       27.11,
-       27.37,
+       25.82,
+       26.02,
        "con"
       ],
       [
-       27.37,
-       27.57,
+       26.02,
+       26.22,
        "los"
       ],
       [
-       27.57,
-       27.95,
+       26.22,
+       26.62,
        "brazos"
       ],
       [
-       27.95,
-       28.67,
+       26.62,
+       27.32,
        "estirados,"
       ],
       [
-       28.67,
-       29.27,
+       27.54,
+       27.95,
        "como"
       ],
       [
-       29.27,
-       29.47,
+       27.95,
+       28.15,
        "si"
       ],
       [
-       29.47,
-       29.85,
+       28.15,
+       28.55,
        "llevara"
       ],
       [
-       29.85,
-       30.03,
+       28.55,
+       28.75,
        "una"
       ],
       [
-       30.03,
-       30.53,
+       28.75,
+       29.21,
        "bomba?"
       ],
       [
-       30.77,
-       31.11,
+       29.46,
+       29.85,
        "Lo"
       ],
       [
-       31.11,
-       31.38,
+       29.85,
+       30.11,
        "lleva"
       ],
       [
-       31.38,
-       31.55,
+       30.11,
+       30.29,
        "del"
       ],
       [
-       31.55,
-       31.91,
+       30.29,
+       30.65,
        "sofá"
       ],
       [
-       31.91,
-       32.02,
+       30.65,
+       30.77,
        "al"
       ],
       [
-       32.02,
-       32.41,
+       30.77,
+       31.13,
        "baño"
       ],
       [
-       32.41,
-       32.9,
+       31.13,
+       31.52,
        "sin"
       ],
       [
-       32.9,
-       33.12,
+       31.52,
+       31.75,
        "que"
       ],
       [
-       33.12,
-       33.38,
+       31.75,
+       32.02,
        "toque"
       ],
       [
-       33.38,
-       33.56,
+       32.02,
+       32.26,
        "nada."
       ]
      ]
     },
     {
      "i": 4,
-     "t0": 33.74,
-     "t1": 41.09,
+     "t0": 32.46,
+     "t1": 39.91,
      "sub": "¿Si ha visto cuando alguien guarda la ropita blanca para cuando el bebé esté más grande? Porque el blanco y el popó no se llevan.",
      "cue": "Observación 4: prenda blanca guardada (pista del 'todo blanco').",
      "w": [
       [
-       33.86,
-       34.23,
+       32.58,
+       33.01,
        "¿Si"
       ],
       [
-       34.23,
-       34.35,
+       33.01,
+       33.13,
        "ha"
       ],
       [
-       34.35,
-       34.67,
+       33.13,
+       33.41,
        "visto"
       ],
       [
-       34.67,
-       35.11,
+       33.41,
+       33.71,
        "cuando"
       ],
       [
-       35.11,
-       35.47,
+       33.71,
+       34.07,
        "alguien"
       ],
       [
-       35.47,
-       35.85,
+       34.07,
+       34.41,
        "guarda"
       ],
       [
-       35.85,
-       35.97,
+       34.41,
+       34.53,
        "la"
       ],
       [
-       35.97,
-       36.39,
+       34.53,
+       34.95,
        "ropita"
       ],
       [
-       36.39,
-       36.77,
+       34.95,
+       35.35,
        "blanca"
       ],
       [
-       36.77,
-       37.03,
+       35.35,
+       35.61,
        "para"
       ],
       [
-       37.03,
-       37.39,
+       35.61,
+       35.93,
        "cuando"
       ],
       [
-       37.39,
-       37.57,
+       35.93,
+       36.09,
        "el"
       ],
       [
-       37.57,
-       37.83,
+       36.09,
+       36.37,
        "bebé"
       ],
       [
-       37.83,
-       38.05,
+       36.37,
+       36.57,
        "esté"
       ],
       [
-       38.05,
-       38.31,
+       36.57,
+       36.81,
        "más"
       ],
       [
-       38.31,
-       38.71,
+       36.81,
+       37.23,
        "grande?"
       ],
       [
-       38.91,
-       39.39,
+       37.44,
+       37.87,
        "Porque"
       ],
       [
-       39.39,
-       39.53,
+       37.87,
+       38.03,
        "el"
       ],
       [
-       39.53,
-       39.85,
+       38.03,
+       38.47,
        "blanco"
       ],
       [
-       39.85,
-       39.99,
+       38.47,
+       38.67,
        "y"
       ],
       [
-       39.99,
-       40.11,
+       38.67,
+       38.81,
        "el"
       ],
       [
-       40.11,
-       40.43,
+       38.81,
+       39.23,
        "popó"
       ],
       [
-       40.43,
-       40.59,
+       39.23,
+       39.35,
        "no"
       ],
       [
-       40.59,
-       40.75,
+       39.35,
+       39.53,
        "se"
       ],
       [
-       40.75,
-       41.09,
+       39.53,
+       39.91,
        "llevan."
       ]
      ]
     },
     {
      "i": 5,
-     "t0": 41.35,
-     "t1": 48.38,
+     "t0": 40.19,
+     "t1": 47.28,
      "sub": "¿Si ha visto cuando alguien limpia la silla del carro a las 11 de la noche? Es la víctima número uno de los escapes.",
      "cue": "Observación 5: reloj 11:00 p. m. (pista del carro).",
      "w": [
       [
-       41.47,
-       42.19,
+       40.3,
+       41.05,
        "¿Si"
       ],
       [
-       42.19,
-       42.33,
+       41.05,
+       41.15,
        "ha"
       ],
       [
-       42.33,
-       42.67,
+       41.15,
+       41.43,
        "visto"
       ],
       [
-       42.67,
-       43.01,
+       41.43,
+       41.77,
        "cuando"
       ],
       [
-       43.01,
-       43.41,
+       41.77,
+       42.21,
        "alguien"
       ],
       [
-       43.41,
-       43.83,
+       42.21,
+       42.61,
        "limpia"
       ],
       [
-       43.83,
-       43.99,
+       42.61,
+       42.73,
        "la"
       ],
       [
-       43.99,
-       44.29,
+       42.73,
+       43.01,
        "silla"
       ],
       [
-       44.29,
-       44.49,
+       43.01,
+       43.19,
        "del"
       ],
       [
-       44.49,
-       44.83,
+       43.19,
+       43.59,
        "carro"
       ],
       [
-       44.83,
-       44.97,
+       43.59,
+       43.77,
        "a"
       ],
       [
-       44.97,
-       45.15,
+       43.77,
+       43.95,
        "las"
       ],
       [
-       45.15,
-       45.35,
+       43.95,
+       44.19,
        "once"
       ],
       [
-       45.35,
-       45.51,
+       44.19,
+       44.35,
        "de"
       ],
       [
-       45.51,
-       45.69,
+       44.35,
+       44.51,
        "la"
       ],
       [
-       45.69,
-       45.97,
+       44.51,
+       44.79,
        "noche?"
       ],
       [
-       46.2,
-       46.46,
+       45.1,
+       45.4,
        "Es"
       ],
       [
-       46.46,
-       46.6,
+       45.4,
+       45.54,
        "la"
       ],
       [
-       46.6,
-       47.1,
+       45.54,
+       46.02,
        "víctima"
       ],
       [
-       47.1,
-       47.38,
+       46.02,
+       46.28,
        "número"
       ],
       [
-       47.38,
-       47.74,
+       46.28,
+       46.64,
        "uno"
       ],
       [
-       47.74,
-       47.88,
+       46.64,
+       46.78,
        "de"
       ],
       [
-       47.88,
-       48.08,
+       46.78,
+       46.98,
        "los"
       ],
       [
-       48.08,
-       48.38,
+       46.98,
+       47.28,
        "escapes."
       ]
      ]
     },
     {
      "i": 6,
-     "t0": 48.78,
-     "t1": 59.3,
+     "t0": 47.64,
+     "t1": 58.76,
      "sub": "¿Si ha visto cuando alguien le pone una toalla al sofá de la suegra antes de sentar al bebé? En casa ajena, el sofá vale el doble, y la vergüenza, el triple.",
      "cue": "Observación 6: x2 / x3 animados (pista del sofá de lujo).",
      "w": [
       [
-       48.9,
-       49.46,
+       47.76,
+       48.44,
        "¿Si"
       ],
       [
-       49.46,
-       49.58,
+       48.44,
+       48.58,
        "ha"
       ],
       [
-       49.58,
-       49.84,
+       48.58,
+       48.86,
        "visto"
       ],
       [
-       49.84,
-       50.14,
+       48.86,
+       49.18,
        "cuando"
       ],
       [
-       50.14,
-       50.5,
+       49.18,
+       49.56,
        "alguien"
       ],
       [
-       50.5,
-       50.64,
+       49.56,
+       49.74,
        "le"
       ],
       [
-       50.64,
-       50.94,
+       49.74,
+       50.1,
        "pone"
       ],
       [
-       50.94,
-       51.16,
+       50.1,
+       50.34,
        "una"
       ],
       [
-       51.16,
-       51.58,
+       50.34,
+       50.76,
        "toalla"
       ],
       [
-       51.58,
-       51.82,
+       50.76,
+       50.92,
        "al"
       ],
       [
-       51.82,
-       52.14,
+       50.92,
+       51.28,
        "sofá"
       ],
       [
-       52.14,
-       52.26,
+       51.28,
+       51.42,
        "de"
       ],
       [
-       52.26,
-       52.4,
+       51.42,
+       51.54,
        "la"
       ],
       [
-       52.4,
-       52.92,
+       51.54,
+       52.0,
        "suegra"
       ],
       [
-       52.92,
-       53.4,
+       52.0,
+       52.74,
        "antes"
       ],
       [
-       53.4,
-       53.62,
+       52.74,
+       52.94,
        "de"
       ],
       [
-       53.62,
-       54.06,
+       52.94,
+       53.4,
        "sentar"
       ],
       [
-       54.06,
-       54.2,
+       53.4,
+       53.54,
        "al"
       ],
       [
-       54.2,
-       54.54,
+       53.54,
+       53.84,
        "bebé?"
       ],
       [
-       54.85,
-       55.22,
+       54.15,
+       54.51,
        "En"
       ],
       [
-       55.22,
-       55.48,
+       54.51,
+       54.81,
        "casa"
       ],
       [
-       55.48,
-       55.96,
+       54.81,
+       55.25,
        "ajena,"
       ],
       [
-       55.96,
-       56.27,
+       55.41,
+       55.72,
        "el"
       ],
       [
-       56.27,
-       56.61,
+       55.72,
+       56.08,
        "sofá"
       ],
       [
-       56.61,
-       56.85,
+       56.08,
+       56.34,
        "vale"
       ],
       [
-       56.85,
-       57.01,
+       56.34,
+       56.54,
        "el"
       ],
       [
-       57.01,
-       57.37,
+       56.54,
+       56.88,
        "doble,"
       ],
       [
-       57.37,
-       57.78,
+       56.88,
+       57.29,
        "y"
       ],
       [
-       57.78,
-       57.92,
+       57.29,
+       57.39,
        "la"
       ],
       [
-       57.92,
-       58.58,
+       57.39,
+       58.05,
        "vergüenza,"
       ],
       [
-       58.58,
-       58.94,
+       58.05,
+       58.44,
        "el"
       ],
       [
-       58.94,
-       59.3,
+       58.44,
+       58.76,
        "triple."
       ]
      ]
     },
     {
      "i": 7,
-     "t0": 60.04,
-     "t1": 67.01,
+     "t0": 59.39,
+     "t1": 66.55,
      "sub": "¿Si ha visto cuando alguien llega con la ropa manchada de popó y es el último en enterarse? Todos lo notan y nadie dice nada.",
      "cue": "Observación 7: muchos ojos que miran.",
      "w": [
       [
-       60.16,
-       60.42,
+       59.51,
+       59.79,
        "¿Si"
       ],
       [
-       60.42,
-       60.5,
+       59.79,
+       59.89,
        "ha"
       ],
       [
-       60.5,
-       60.68,
+       59.89,
+       60.17,
        "visto"
       ],
       [
-       60.68,
-       60.94,
+       60.17,
+       60.45,
        "cuando"
       ],
       [
-       60.94,
-       61.24,
+       60.45,
+       60.81,
        "alguien"
       ],
       [
-       61.24,
-       61.54,
+       60.81,
+       61.09,
        "llega"
       ],
       [
-       61.54,
-       61.74,
+       61.09,
+       61.29,
        "con"
       ],
       [
-       61.74,
-       61.88,
+       61.29,
+       61.43,
        "la"
       ],
       [
-       61.88,
-       62.14,
+       61.43,
+       61.73,
        "ropa"
       ],
       [
-       62.14,
-       62.6,
+       61.73,
+       62.21,
        "manchada"
       ],
       [
-       62.6,
-       62.74,
+       62.21,
+       62.35,
        "de"
       ],
       [
-       62.74,
-       63.18,
+       62.35,
+       62.81,
        "popó"
       ],
       [
-       63.18,
-       63.44,
+       62.81,
+       63.01,
        "y"
       ],
       [
-       63.44,
-       63.6,
+       63.01,
+       63.19,
        "es"
       ],
       [
-       63.6,
-       63.74,
+       63.19,
+       63.33,
        "el"
       ],
       [
-       63.74,
-       64.0,
+       63.33,
+       63.61,
        "último"
       ],
       [
-       64.0,
-       64.18,
+       63.61,
+       63.77,
        "en"
       ],
       [
-       64.18,
-       64.8,
+       63.77,
+       64.35,
        "enterarse?"
       ],
       [
-       65.0,
-       65.31,
+       64.61,
+       64.97,
        "Todos"
       ],
       [
-       65.31,
-       65.57,
+       64.97,
+       65.17,
        "lo"
       ],
       [
+       65.17,
        65.57,
-       65.99,
        "notan"
       ],
       [
-       65.99,
-       66.09,
+       65.57,
+       65.67,
        "y"
       ],
       [
-       66.09,
-       66.39,
+       65.67,
+       65.95,
        "nadie"
       ],
       [
-       66.39,
-       66.69,
+       65.95,
+       66.25,
        "dice"
       ],
       [
-       66.69,
-       67.01,
+       66.25,
+       66.55,
        "nada."
       ]
      ]
     },
     {
      "i": 8,
-     "t0": 67.25,
-     "t1": 75.84,
+     "t0": 67.31,
+     "t1": 75.54,
      "sub": "¿Si ha visto cuando alguien dice «mejor nos quedamos en la casa»? 4 de cada 10 papás han dejado de ir a lugares por miedo a que el pañal se salga.",
      "cue": "Observación 8: infografía 4/10 (encuesta de Pampers, 2023, dato de la competencia).",
      "w": [
       [
-       67.37,
-       68.08,
+       67.43,
+       67.69,
        "¿Si"
       ],
       [
-       68.08,
-       68.2,
+       67.69,
+       67.79,
        "ha"
       ],
       [
-       68.2,
-       68.5,
+       67.79,
+       68.03,
        "visto"
       ],
       [
-       68.5,
-       68.76,
+       68.03,
+       68.29,
        "cuando"
       ],
       [
-       68.76,
-       69.02,
+       68.29,
+       68.61,
        "alguien"
       ],
       [
-       69.02,
-       69.34,
+       68.61,
+       68.95,
        "dice:"
       ],
       [
-       69.48,
-       69.86,
+       69.08,
+       69.39,
        "mejor"
       ],
       [
-       69.86,
-       70.08,
+       69.39,
+       69.61,
        "nos"
       ],
       [
-       70.08,
-       70.44,
+       69.61,
+       69.99,
        "quedamos"
       ],
       [
-       70.44,
-       70.58,
+       69.99,
+       70.15,
        "en"
       ],
       [
-       70.58,
-       70.67,
+       70.15,
+       70.27,
        "la"
       ],
       [
-       70.67,
-       71.0,
+       70.27,
+       70.61,
        "casa?"
       ],
       [
-       71.29,
-       71.6,
+       71.04,
+       71.32,
        "Cuatro"
       ],
       [
-       71.6,
-       71.82,
+       71.32,
+       71.52,
        "de"
       ],
       [
-       71.82,
-       72.02,
+       71.52,
+       71.78,
        "cada"
       ],
       [
-       72.02,
-       72.28,
+       71.78,
+       72.04,
        "diez"
       ],
       [
-       72.28,
-       72.8,
+       72.04,
+       72.56,
        "papás"
       ],
       [
-       72.8,
-       72.96,
+       72.56,
+       72.74,
        "han"
       ],
       [
-       72.96,
-       73.34,
+       72.74,
+       73.1,
        "dejado"
       ],
       [
-       73.34,
-       73.46,
+       73.1,
+       73.22,
        "de"
       ],
       [
-       73.46,
-       73.62,
+       73.22,
+       73.34,
        "ir"
       ],
       [
-       73.62,
-       73.72,
+       73.34,
+       73.42,
        "a"
       ],
       [
-       73.72,
-       74.08,
+       73.42,
+       73.74,
        "lugares"
       ],
       [
-       74.08,
-       74.34,
+       73.74,
+       74.02,
        "por"
       ],
       [
-       74.34,
-       74.64,
+       74.02,
+       74.3,
        "miedo"
       ],
       [
-       74.64,
-       74.78,
+       74.3,
+       74.42,
        "a"
       ],
       [
-       74.78,
-       74.88,
+       74.42,
+       74.48,
        "que"
       ],
       [
-       74.88,
-       74.98,
+       74.48,
+       74.58,
        "el"
       ],
       [
-       74.98,
-       75.34,
+       74.58,
+       74.96,
        "pañal"
       ],
       [
-       75.34,
-       75.46,
+       74.96,
+       75.1,
        "se"
       ],
       [
-       75.46,
-       75.84,
+       75.1,
+       75.54,
        "salga."
       ]
      ]
     },
     {
      "i": 9,
-     "t0": 76.31,
-     "t1": 80.67,
-     "sub": "¿Ven el patrón? Nadie habla del popó. Todos hablan de DÓNDE TERMINA.",
-     "cue": "Las 8 observaciones se reducen a palabras clave y convergen en 'DÓNDE TERMINA'.",
+     "t0": 75.94,
+     "t1": 81.0,
+     "sub": "¿Ven el patrón? Nadie habla del popó. Todos hablan de lo que pasa CUANDO SE SALE.",
+     "cue": "Las 8 observaciones se reducen a palabras clave y convergen en 'CUANDO SE SALE'.",
      "w": [
       [
-       76.43,
-       77.05,
+       76.06,
+       76.81,
        "¿Ven"
       ],
       [
-       77.05,
-       77.15,
+       76.81,
+       76.93,
        "el"
       ],
       [
-       77.15,
-       77.55,
+       76.93,
+       77.33,
        "patrón?"
       ],
       [
-       77.87,
-       78.31,
+       77.56,
+       77.99,
        "Nadie"
       ],
       [
-       78.31,
-       78.51,
+       77.99,
+       78.21,
        "habla"
       ],
       [
-       78.51,
-       78.67,
+       78.21,
+       78.39,
        "del"
       ],
       [
-       78.67,
-       79.07,
+       78.39,
+       78.77,
        "popó."
       ],
       [
-       79.21,
-       79.53,
+       78.91,
+       79.3,
        "Todos"
       ],
       [
-       79.53,
-       79.84,
+       79.3,
+       79.64,
        "hablan"
       ],
       [
-       79.84,
-       79.95,
+       79.64,
+       79.74,
        "de"
       ],
       [
-       79.95,
-       80.16,
-       "dónde"
+       79.74,
+       79.84,
+       "lo"
       ],
       [
-       80.16,
-       80.67,
-       "termina."
+       79.84,
+       79.96,
+       "que"
+      ],
+      [
+       79.96,
+       80.26,
+       "pasa"
+      ],
+      [
+       80.26,
+       80.52,
+       "cuando"
+      ],
+      [
+       80.52,
+       80.72,
+       "se"
+      ],
+      [
+       80.72,
+       81.0,
+       "sale."
       ]
      ]
     }
@@ -4326,105 +4346,105 @@ window.NARRACION = {
    "subs": [
     {
      "t0": 0.23,
-     "t1": 3.43,
+     "t1": 3.67,
      "text": "La primera pregunta: ¿Si ha visto cuando alguien…?"
     },
     {
-     "t0": 3.7,
-     "t1": 7.16,
+     "t0": 3.75,
+     "t1": 7.17,
      "text": "¿Si ha visto cuando alguien le huele la cola al bebé en plena reunión,"
     },
     {
-     "t0": 7.18,
-     "t1": 10.0,
+     "t0": 7.19,
+     "t1": 9.88,
      "text": "disimulando con un besito?"
     },
     {
-     "t0": 10.13,
-     "t1": 15.16,
+     "t0": 10.04,
+     "t1": 14.62,
      "text": "Es la forma más vergonzosa de revisar el pañal, y la más necesaria."
     },
     {
-     "t0": 15.26,
-     "t1": 20.15,
+     "t0": 15.14,
+     "t1": 19.53,
      "text": "¿Si ha visto cuando alguien se congela porque el bebé pone cara de estar pujando?"
     },
     {
-     "t0": 20.41,
-     "t1": 23.93,
+     "t0": 19.72,
+     "t1": 23.23,
      "text": "Se para el mundo, y uno reza: que aguante, que aguante."
     },
     {
-     "t0": 24.59,
-     "t1": 29.2,
+     "t0": 23.24,
+     "t1": 27.88,
      "text": "¿Si ha visto cuando alguien carga al bebé con los brazos estirados,"
     },
     {
-     "t0": 29.22,
-     "t1": 33.71,
+     "t0": 27.9,
+     "t1": 32.41,
      "text": "como si llevara una bomba? Lo lleva del sofá al baño sin que toque nada."
     },
     {
-     "t0": 33.74,
-     "t1": 39.32,
+     "t0": 32.46,
+     "t1": 37.8,
      "text": "¿Si ha visto cuando alguien guarda la ropita blanca para cuando el bebé esté más grande?"
     },
     {
-     "t0": 39.34,
-     "t1": 41.24,
+     "t0": 37.82,
+     "t1": 40.06,
      "text": "Porque el blanco y el popó no se llevan."
     },
     {
-     "t0": 41.35,
-     "t1": 46.12,
+     "t0": 40.19,
+     "t1": 44.94,
      "text": "¿Si ha visto cuando alguien limpia la silla del carro a las 11 de la noche?"
     },
     {
-     "t0": 46.15,
-     "t1": 48.53,
+     "t0": 45.05,
+     "t1": 47.43,
      "text": "Es la víctima número uno de los escapes."
     },
     {
-     "t0": 48.78,
-     "t1": 54.69,
+     "t0": 47.64,
+     "t1": 53.99,
      "text": "¿Si ha visto cuando alguien le pone una toalla al sofá de la suegra antes de sentar al bebé?"
     },
     {
-     "t0": 54.8,
-     "t1": 59.45,
+     "t0": 54.1,
+     "t1": 58.91,
      "text": "En casa ajena, el sofá vale el doble, y la vergüenza, el triple."
     },
     {
-     "t0": 60.04,
-     "t1": 64.95,
+     "t0": 59.39,
+     "t1": 64.5,
      "text": "¿Si ha visto cuando alguien llega con la ropa manchada de popó y es el último en enterarse?"
     },
     {
-     "t0": 64.95,
-     "t1": 67.16,
+     "t0": 64.56,
+     "t1": 66.7,
      "text": "Todos lo notan y nadie dice nada."
     },
     {
-     "t0": 67.25,
-     "t1": 71.75,
+     "t0": 67.31,
+     "t1": 71.45,
      "text": "¿Si ha visto cuando alguien dice «mejor nos quedamos en la casa»?"
     },
     {
-     "t0": 71.77,
-     "t1": 75.99,
+     "t0": 71.47,
+     "t1": 75.69,
      "text": "4 de cada 10 papás han dejado de ir a lugares por miedo a que el pañal se salga."
     },
     {
-     "t0": 76.31,
-     "t1": 80.83,
-     "text": "¿Ven el patrón? Nadie habla del popó. Todos hablan de DÓNDE TERMINA."
+     "t0": 75.94,
+     "t1": 81.15,
+     "text": "¿Ven el patrón? Nadie habla del popó. Todos hablan de lo que pasa CUANDO SE SALE."
     }
    ]
   },
   {
    "id": "s07",
    "titulo": "¿Qué pasaría si…?",
-   "audio": "assets/voz/s07.mp3?v=5",
+   "audio": "assets/voz/s07.mp3?v=6",
    "dur": 79.04,
    "beats": [
     {
@@ -5674,7 +5694,7 @@ window.NARRACION = {
   {
    "id": "s08",
    "titulo": "Emociones",
-   "audio": "assets/voz/s08.mp3?v=5",
+   "audio": "assets/voz/s08.mp3?v=6",
    "dur": 45.88,
    "beats": [
     {
@@ -6431,7 +6451,7 @@ window.NARRACION = {
   {
    "id": "s09",
    "titulo": "Miedos por tallas",
-   "audio": "assets/voz/s09.mp3?v=5",
+   "audio": "assets/voz/s09.mp3?v=6",
    "dur": 54.99,
    "beats": [
     {
@@ -7409,7 +7429,7 @@ window.NARRACION = {
   {
    "id": "s10",
    "titulo": "Los insights",
-   "audio": "assets/voz/s10.mp3?v=5",
+   "audio": "assets/voz/s10.mp3?v=6",
    "dur": 43.23,
    "beats": [
     {
@@ -8236,560 +8256,625 @@ window.NARRACION = {
   {
    "id": "s11",
    "titulo": "El insight principal",
-   "audio": "assets/voz/s11.mp3?v=5",
-   "dur": 36.22,
+   "audio": "assets/voz/s11.mp3?v=6",
+   "dur": 39.75,
    "beats": [
     {
      "i": 0,
      "t0": 0.23,
-     "t1": 4.94,
+     "t1": 5.22,
      "sub": "Pero si juntamos todo lo que aprendimos, aparece uno que lo explica todo.",
      "cue": "Las frases anteriores se funden en una sola luz.",
      "w": [
       [
        0.35,
-       1.2,
+       1.27,
        "Pero"
       ],
       [
-       1.2,
-       1.38,
+       1.27,
+       1.45,
        "si"
       ],
       [
-       1.38,
-       1.96,
+       1.45,
+       1.95,
        "juntamos"
       ],
       [
-       1.96,
-       2.2,
+       1.95,
+       2.25,
        "todo"
       ],
       [
-       2.2,
-       2.36,
+       2.25,
+       2.41,
        "lo"
       ],
       [
-       2.36,
-       2.46,
+       2.41,
+       2.53,
        "que"
       ],
       [
-       2.46,
-       3.1,
+       2.53,
+       3.17,
        "aprendimos,"
       ],
       [
-       3.2,
-       3.66,
+       3.28,
+       3.8,
        "aparece"
       ],
       [
-       3.66,
-       3.96,
+       3.8,
+       4.14,
        "uno"
       ],
       [
-       3.96,
-       4.12,
+       4.14,
+       4.3,
        "que"
       ],
       [
-       4.12,
-       4.24,
+       4.3,
+       4.4,
        "lo"
       ],
       [
-       4.24,
-       4.73,
+       4.4,
+       4.88,
        "explica"
       ],
       [
-       4.73,
-       4.94,
+       4.88,
+       5.22,
        "todo."
       ]
      ]
     },
     {
      "i": 1,
-     "t0": 5.27,
-     "t1": 8.88,
-     "sub": "«No le tengo miedo al popó. Le tengo miedo a dónde va a terminar.»",
-     "cue": "EL INSIGHT gigante, palabra por palabra; 'dónde va a terminar' en rojo.",
+     "t0": 5.42,
+     "t1": 10.18,
+     "sub": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»",
+     "cue": "EL INSIGHT gigante, palabra por palabra; 'cuando se sale del pañal' en rojo.",
      "w": [
       [
-       5.39,
-       5.92,
+       5.54,
+       6.09,
        "No"
       ],
       [
-       5.92,
-       6.06,
+       6.09,
+       6.23,
        "le"
       ],
       [
-       6.06,
-       6.32,
+       6.23,
+       6.51,
        "tengo"
       ],
       [
-       6.32,
-       6.68,
+       6.51,
+       6.85,
        "miedo"
       ],
       [
-       6.68,
-       6.82,
+       6.85,
+       7.0,
        "al"
       ],
       [
-       6.82,
-       7.22,
+       7.0,
+       7.42,
        "popó."
       ],
       [
-       7.36,
-       7.46,
+       7.59,
+       7.7,
        "Le"
       ],
       [
-       7.46,
-       7.72,
+       7.7,
+       7.96,
        "tengo"
       ],
       [
-       7.72,
-       8.04,
+       7.96,
+       8.24,
        "miedo"
       ],
       [
-       8.04,
-       8.16,
+       8.24,
+       8.32,
        "a"
       ],
       [
-       8.16,
-       8.36,
-       "dónde"
+       8.32,
+       8.42,
+       "lo"
       ],
       [
-       8.36,
-       8.5,
-       "va"
+       8.42,
+       8.56,
+       "que"
       ],
       [
-       8.5,
-       8.62,
-       "a"
+       8.56,
+       8.92,
+       "pasa"
       ],
       [
-       8.62,
-       8.88,
-       "terminar."
+       8.92,
+       9.16,
+       "cuando"
+      ],
+      [
+       9.16,
+       9.34,
+       "se"
+      ],
+      [
+       9.34,
+       9.6,
+       "sale"
+      ],
+      [
+       9.6,
+       9.78,
+       "del"
+      ],
+      [
+       9.78,
+       10.18,
+       "pañal."
       ]
      ]
     },
     {
      "i": 2,
-     "t0": 9.2,
-     "t1": 16.38,
-     "sub": "Funciona porque el popó de tu propio bebé da poco asco: lo que de verdad asusta es dañar lo ajeno, y lo que piensen los demás.",
-     "cue": "Debajo, de dónde sale: las observaciones (dónde termina), el desagrado y los miedos más grandes.",
+     "t0": 10.65,
+     "t1": 18.6,
+     "sub": "Funciona porque abarca todos los miedos: el plan que se arruina, lo ajeno que se mancha, la mirada de los demás y la libertad que se pierde.",
+     "cue": "Debajo, las cuatro consecuencias: el plan, lo ajeno, los demás, la libertad.",
      "w": [
       [
-       9.32,
-       10.09,
+       10.77,
+       11.21,
        "Funciona"
       ],
       [
-       10.09,
-       10.27,
+       11.21,
+       11.43,
        "porque"
       ],
       [
-       10.27,
-       10.41,
-       "el"
+       11.43,
+       11.87,
+       "abarca"
       ],
       [
-       10.41,
-       10.73,
-       "popó"
+       11.87,
+       12.25,
+       "todos"
       ],
       [
-       10.73,
-       10.83,
-       "de"
-      ],
-      [
-       10.83,
-       10.99,
-       "tu"
-      ],
-      [
-       10.99,
-       11.31,
-       "propio"
-      ],
-      [
-       11.31,
-       11.67,
-       "bebé"
-      ],
-      [
-       11.67,
-       11.89,
-       "da"
-      ],
-      [
-       11.89,
-       12.19,
-       "poco"
-      ],
-      [
-       12.19,
-       12.59,
-       "asco:"
-      ],
-      [
-       12.75,
-       13.0,
-       "lo"
-      ],
-      [
-       13.0,
-       13.12,
-       "que"
-      ],
-      [
-       13.12,
-       13.26,
-       "de"
-      ],
-      [
-       13.26,
-       13.54,
-       "verdad"
-      ],
-      [
-       13.54,
-       14.06,
-       "asusta"
-      ],
-      [
-       14.06,
-       14.24,
-       "es"
-      ],
-      [
-       14.24,
-       14.58,
-       "dañar"
-      ],
-      [
-       14.58,
-       14.68,
-       "lo"
-      ],
-      [
-       14.68,
-       15.1,
-       "ajeno,"
-      ],
-      [
-       15.1,
-       15.34,
-       "y"
-      ],
-      [
-       15.34,
-       15.44,
-       "lo"
-      ],
-      [
-       15.44,
-       15.58,
-       "que"
-      ],
-      [
-       15.58,
-       15.92,
-       "piensen"
-      ],
-      [
-       15.92,
-       16.16,
+       12.25,
+       12.51,
        "los"
       ],
       [
-       16.16,
-       16.38,
-       "demás."
+       12.51,
+       12.99,
+       "miedos:"
+      ],
+      [
+       13.11,
+       13.43,
+       "el"
+      ],
+      [
+       13.43,
+       13.69,
+       "plan"
+      ],
+      [
+       13.69,
+       13.83,
+       "que"
+      ],
+      [
+       13.83,
+       13.99,
+       "se"
+      ],
+      [
+       13.99,
+       14.43,
+       "arruina,"
+      ],
+      [
+       14.69,
+       14.85,
+       "lo"
+      ],
+      [
+       14.85,
+       15.19,
+       "ajeno"
+      ],
+      [
+       15.19,
+       15.31,
+       "que"
+      ],
+      [
+       15.31,
+       15.47,
+       "se"
+      ],
+      [
+       15.47,
+       15.85,
+       "mancha,"
+      ],
+      [
+       15.98,
+       16.08,
+       "la"
+      ],
+      [
+       16.08,
+       16.44,
+       "mirada"
+      ],
+      [
+       16.44,
+       16.58,
+       "de"
+      ],
+      [
+       16.58,
+       16.76,
+       "los"
+      ],
+      [
+       16.76,
+       17.02,
+       "demás"
+      ],
+      [
+       17.02,
+       17.22,
+       "y"
+      ],
+      [
+       17.22,
+       17.34,
+       "la"
+      ],
+      [
+       17.34,
+       17.88,
+       "libertad"
+      ],
+      [
+       17.88,
+       18.02,
+       "que"
+      ],
+      [
+       18.02,
+       18.16,
+       "se"
+      ],
+      [
+       18.16,
+       18.6,
+       "pierde."
       ]
      ]
     },
     {
      "i": 3,
-     "t0": 16.82,
-     "t1": 27.0,
-     "sub": "Y si el miedo es al «dónde», la idea fue llevar ese «dónde» al lugar más caro del mundo. Si aguanta medio millón de dólares… aguanta tu sofá.",
-     "cue": "'DÓNDE' se convierte en el set de lujo; súper de cierre estilo teaser: 'Si aguanta medio millón de dólares…' / 'AGUANTA TU SOFÁ' + logo Huggies.",
+     "t0": 18.77,
+     "t1": 30.48,
+     "sub": "Y si el miedo es a lo que cuesta que se salga, la idea fue subir ese costo al máximo: un set de medio millón de dólares. Si aguanta medio millón de dólares… aguanta tu sofá.",
+     "cue": "'EL COSTO' se convierte en el set de lujo; súper de cierre estilo teaser: 'Si aguanta medio millón de dólares…' / 'AGUANTA TU SOFÁ' + logo Huggies.",
      "w": [
       [
-       16.94,
-       17.6,
+       18.89,
+       19.17,
        "Y"
       ],
       [
-       17.6,
-       17.78,
+       19.17,
+       19.33,
        "si"
       ],
       [
-       17.78,
-       17.92,
+       19.33,
+       19.47,
        "el"
       ],
       [
-       17.92,
-       18.22,
+       19.47,
+       19.79,
        "miedo"
       ],
       [
-       18.22,
-       18.44,
+       19.79,
+       20.03,
        "es"
       ],
       [
-       18.44,
-       18.66,
-       "al"
+       20.03,
+       20.11,
+       "a"
       ],
       [
-       18.66,
-       18.96,
-       "dónde,"
+       20.11,
+       20.23,
+       "lo"
       ],
       [
-       19.23,
-       19.54,
+       20.23,
+       20.37,
+       "que"
+      ],
+      [
+       20.37,
+       20.75,
+       "cuesta"
+      ],
+      [
+       20.75,
+       20.93,
+       "que"
+      ],
+      [
+       20.93,
+       21.07,
+       "se"
+      ],
+      [
+       21.07,
+       21.51,
+       "salga,"
+      ],
+      [
+       21.66,
+       21.9,
        "la"
       ],
       [
-       19.54,
-       19.8,
+       21.9,
+       22.16,
        "idea"
       ],
       [
-       19.8,
-       20.02,
+       22.16,
+       22.38,
        "fue"
       ],
       [
-       20.02,
-       20.4,
-       "llevar"
+       22.38,
+       22.76,
+       "subir"
       ],
       [
-       20.4,
-       20.84,
+       22.76,
+       23.04,
        "ese"
       ],
       [
-       20.84,
-       21.28,
-       "dónde"
+       23.04,
+       23.56,
+       "costo"
       ],
       [
-       21.28,
-       21.5,
+       23.56,
+       23.72,
        "al"
       ],
       [
-       21.5,
-       21.82,
-       "lugar"
+       23.72,
+       24.22,
+       "máximo:"
       ],
       [
-       21.82,
-       22.1,
-       "más"
+       24.54,
+       24.93,
+       "un"
       ],
       [
-       22.1,
-       22.48,
-       "caro"
+       24.93,
+       25.27,
+       "set"
       ],
       [
-       22.48,
-       22.62,
-       "del"
-      ],
-      [
-       22.62,
-       22.98,
-       "mundo."
-      ],
-      [
-       23.27,
-       23.65,
-       "Si"
-      ],
-      [
-       23.65,
-       24.15,
-       "aguanta"
-      ],
-      [
-       24.15,
-       24.43,
-       "medio"
-      ],
-      [
-       24.43,
-       24.88,
-       "millón"
-      ],
-      [
-       24.88,
-       24.99,
+       25.27,
+       25.56,
        "de"
       ],
       [
-       24.99,
-       25.41,
-       "dólares,"
+       25.56,
+       25.9,
+       "medio"
       ],
       [
-       25.78,
-       26.26,
+       25.9,
+       26.34,
+       "millón"
+      ],
+      [
+       26.34,
+       26.48,
+       "de"
+      ],
+      [
+       26.48,
+       26.86,
+       "dólares."
+      ],
+      [
+       27.3,
+       27.64,
+       "Si"
+      ],
+      [
+       27.64,
+       28.08,
        "aguanta"
       ],
       [
-       26.26,
-       26.46,
+       28.08,
+       28.42,
+       "medio"
+      ],
+      [
+       28.42,
+       28.86,
+       "millón"
+      ],
+      [
+       28.86,
+       28.98,
+       "de"
+      ],
+      [
+       28.98,
+       29.34,
+       "dólares,"
+      ],
+      [
+       29.58,
+       29.9,
+       "aguanta"
+      ],
+      [
+       29.9,
+       30.1,
        "tu"
       ],
       [
-       26.46,
-       27.0,
+       30.1,
+       30.48,
        "sofá."
       ]
      ]
     },
     {
      "i": 4,
-     "t0": 27.23,
-     "t1": 34.87,
+     "t0": 30.64,
+     "t1": 38.22,
      "sub": "Así queda la lámina del ejercicio: lo que vimos, lo que imaginamos, lo que sentimos, lo que tememos… y el insight.",
      "cue": "Plantilla de la lámina 11 del PDF llenándose sola: ¿Si ha visto cuando? R/ · ¿Qué pasaría si? R/ · Emociones · Miedo · Insight.",
      "w": [
       [
-       27.35,
-       28.33,
+       30.76,
+       31.64,
        "Así"
       ],
       [
-       28.33,
-       28.59,
+       31.64,
+       31.9,
        "queda"
       ],
       [
-       28.59,
-       28.77,
+       31.9,
+       32.06,
        "la"
       ],
       [
-       28.77,
-       29.11,
+       32.06,
+       32.44,
        "lámina"
       ],
       [
-       29.11,
-       29.29,
+       32.44,
+       32.6,
        "del"
       ],
       [
-       29.29,
-       29.91,
+       32.6,
+       33.24,
        "ejercicio:"
       ],
       [
-       30.08,
-       30.27,
+       33.38,
+       33.57,
        "lo"
       ],
       [
-       30.27,
-       30.41,
+       33.57,
+       33.71,
        "que"
       ],
       [
-       30.41,
-       30.77,
+       33.71,
+       34.05,
        "vimos,"
       ],
       [
-       31.17,
-       31.23,
+       34.33,
+       34.46,
        "lo"
       ],
       [
-       31.23,
-       31.35,
+       34.46,
+       34.58,
        "que"
       ],
       [
-       31.35,
-       32.17,
+       34.58,
+       35.34,
        "imaginamos,"
       ],
       [
-       32.43,
-       32.47,
+       35.54,
+       35.62,
        "lo"
       ],
       [
-       32.47,
-       32.59,
+       35.62,
+       35.76,
        "que"
       ],
       [
-       32.59,
-       33.19,
+       35.76,
+       36.44,
        "sentimos,"
       ],
       [
-       33.35,
-       33.41,
+       36.68,
+       36.74,
        "lo"
       ],
       [
-       33.41,
-       33.53,
+       36.74,
+       36.9,
        "que"
       ],
       [
-       33.53,
-       34.11,
+       36.9,
+       37.48,
        "tememos,"
       ],
       [
-       34.11,
-       34.37,
+       37.48,
+       37.72,
        "y"
       ],
       [
-       34.37,
-       34.55,
+       37.72,
+       37.9,
        "el"
       ],
       [
-       34.55,
-       34.87,
+       37.9,
+       38.22,
        "ínsait."
       ]
      ]
@@ -8798,42 +8883,47 @@ window.NARRACION = {
    "subs": [
     {
      "t0": 0.23,
-     "t1": 5.09,
+     "t1": 5.37,
      "text": "Pero si juntamos todo lo que aprendimos, aparece uno que lo explica todo."
     },
     {
-     "t0": 5.27,
-     "t1": 9.03,
-     "text": "«No le tengo miedo al popó. Le tengo miedo a dónde va a terminar.»"
+     "t0": 5.42,
+     "t1": 10.33,
+     "text": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»"
     },
     {
-     "t0": 9.2,
-     "t1": 12.68,
-     "text": "Funciona porque el popó de tu propio bebé da poco asco:"
+     "t0": 10.65,
+     "t1": 13.62,
+     "text": "Funciona porque abarca todos los miedos:"
     },
     {
-     "t0": 12.7,
-     "t1": 16.53,
-     "text": "lo que de verdad asusta es dañar lo ajeno, y lo que piensen los demás."
+     "t0": 13.64,
+     "t1": 18.75,
+     "text": "el plan que se arruina, lo ajeno que se mancha, la mirada de los demás y la libertad que se pierde."
     },
     {
-     "t0": 16.82,
-     "t1": 20.77,
-     "text": "Y si el miedo es al «dónde», la idea fue llevar ese «dónde»"
+     "t0": 18.77,
+     "t1": 23.49,
+     "text": "Y si el miedo es a lo que cuesta que se salga, la idea fue subir ese costo al máximo:"
     },
     {
-     "t0": 20.79,
-     "t1": 27.15,
-     "text": "al lugar más caro del mundo. Si aguanta medio millón de dólares… aguanta tu sofá."
+     "t0": 23.51,
+     "t1": 29.49,
+     "text": "un set de medio millón de dólares. Si aguanta medio millón de dólares…"
     },
     {
-     "t0": 27.23,
-     "t1": 30.01,
+     "t0": 29.53,
+     "t1": 30.63,
+     "text": "aguanta tu sofá."
+    },
+    {
+     "t0": 30.64,
+     "t1": 33.31,
      "text": "Así queda la lámina del ejercicio:"
     },
     {
-     "t0": 30.03,
-     "t1": 35.02,
+     "t0": 33.33,
+     "t1": 38.37,
      "text": "lo que vimos, lo que imaginamos, lo que sentimos, lo que tememos… y el insight."
     }
    ]
@@ -8841,7 +8931,7 @@ window.NARRACION = {
   {
    "id": "s12",
    "titulo": "Gracias",
-   "audio": "assets/voz/s12.mp3?v=5",
+   "audio": "assets/voz/s12.mp3?v=6",
    "dur": 15.04,
    "beats": [
     {

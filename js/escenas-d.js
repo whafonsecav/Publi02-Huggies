@@ -122,7 +122,7 @@
   E.s11 = {
     build(cam, T, tl, A, root) {
       root.dataset.legal = 'frames';
-      const L1 = 'No le tengo miedo al popó.'.split(' '), L2 = 'Le tengo miedo a'.split(' '), L3 = 'dónde va a terminar.'.split(' ');
+      const L1 = 'No le tengo miedo al popó.'.split(' '), L2 = 'Le tengo miedo a lo que pasa'.split(' '), L3 = 'cuando se sale del pañal.'.split(' ');   // v5.2 (feedback de clase)
       cam.innerHTML = `
       <div class="lay s11-cloud">${cloudHTML('s11-c')}</div>
       <div class="s11-light o0"></div>
@@ -132,10 +132,10 @@
         <p class="fr ink s11-l2">${L2.map(w => `<span class="iw o0">${w}</span>`).join(' ')}</p>
         <p class="fr red s11-l3">${L3.map(w => `<span class="iw dn o0">${w}</span>`).join(' ')}</p>
       </div>
-      <div class="s11-src">${[['Lo que vimos', 'todos hablan de dónde termina'], ['La emoción', 'el popó propio da poco asco'], ['Los miedos', 'dañar lo ajeno y lo que piensen los demás']].map((c, k) => `
-        <div class="o0" style="left:${180 + k * 540}px"><svg viewBox="0 0 20 120" class="ln"><path d="M10 0 V120" stroke="#D9B56A" stroke-width="5" stroke-dasharray="3 9" stroke-linecap="round"/></svg><span class="lbl">${c[0]}</span><p class="fr ink">${c[1]}</p></div>`).join('')}</div>
+      <div class="s11-src">${[['El plan', 'se arruina'], ['Lo ajeno', 'se mancha'], ['Los demás', 'miran y juzgan'], ['La libertad', 'se pierde']].map((c, k) => `
+        <div class="o0" style="left:${160 + k * 400}px"><svg viewBox="0 0 20 120" class="ln"><path d="M10 0 V120" stroke="#D9B56A" stroke-width="5" stroke-dasharray="3 9" stroke-linecap="round"/></svg><span class="lbl">${c[0]}</span><p class="fr ink">${c[1]}</p></div>`).join('')}</div>
       <div class="s11-plate o0"><img class="plate" src="assets/piezas/img-04-reasonwhy-hero.jpg" alt=""></div>
-      <p class="s11-donde anton o0">DÓNDE</p>
+      <p class="s11-donde anton o0">EL COSTO</p>
       <div class="s11-end o0"><img class="plate" src="assets/fallback/set-cierre.jpg" alt="">
         <div class="ctr s11-lg o0" style="top:150px"><img src="assets/logos/huggies-logo.svg" alt="Huggies" style="width:260px"></div>
         <div class="sup s11-endsup" style="top:300px;--ss:64px;--sb:210px"><span class="s" style="visibility:hidden">Si aguanta medio millón de dólares…</span><span class="b o0 s11-s2">AGUANTA TU SOFÁ</span></div>
@@ -146,7 +146,7 @@
         <div class="s11-mon"><div class="scr"><video muted playsinline preload="auto" src="assets/video/huggies-expensive-shit-teaser.mp4"></video></div><i class="neck"></i><i class="foot"></i></div>
         <dl class="s11-dl">
           ${[['¿SI HA VISTO CUANDO?', 'R/. Alguien le pone una toalla al sofá ajeno… porque ¿y si se sale?'], ['¿QUÉ PASARÍA SI?', 'R/. …lo demostráramos en vivo, en un lujo todo blanco, con lo más valioso en riesgo.'],
-            ['EMOCIONES:', 'temor y desagrado → alegría'], ['MIEDO:', 'perder la libertad (XXL)'], ['INSIGHT:', '«No le tengo miedo al popó. Le tengo miedo a dónde va a terminar.»']].map((d, k) => `
+            ['EMOCIONES:', 'temor y desagrado → alegría'], ['MIEDO:', 'perder la libertad (XXL)'], ['INSIGHT:', '«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»']].map((d, k) => `
             <div class="o0${k === 4 ? ' ins' : ''}"><dt>${d[0]}</dt><dd>${d[1]}</dd></div>`).join('')}
         </dl>
       </div>`;
@@ -172,19 +172,19 @@
       const ins = q(cam, '.s11-ins');
       tl.to(ins, { y: -150, scale: .7, duration: .8, ease: 'expo.inOut' }, T.b(2) + .4);
       const src = qa(cam, '.s11-src > div');
-      [T.w(2, ['funciona']) + .5, T.w(2, ['asco']) + .2, T.w(2, ['danar', 'ajeno'])].forEach((t, k) => {
+      [T.w(2, ['plan']), T.w(2, ['ajeno']), T.w(2, ['mirada']), T.w(2, ['libertad'])].forEach((t, k) => {
         A.rise(src[k], t - .1, { y: 30 });
         A.draw(q(src[k], '.ln path'), t, .5);
       });
       // ---------- beat 3: el "dónde" se vuelve el set más caro del mundo → AGUANTA TU SOFÁ
-      const tD = T.w(3, ['donde']);
+      const tD = T.w(3, ['cuesta', 'costo']);
       tl.to([qa(cam, '.s11-src > div'), q(cam, '.s11-qm')], { autoAlpha: 0, duration: .35 }, tD - .3);
       tl.to(ws.filter(w => !w.classList.contains('dn')).concat(dn.slice(1)), { autoAlpha: 0, duration: .35 }, tD - .3);
       const big = q(cam, '.s11-donde');
       tl.fromTo(big, { autoAlpha: 0, scale: .35, y: 60 }, { autoAlpha: 1, scale: 1, y: 0, duration: .7, ease: 'expo.out', immediateRender: false }, tD - .1);
       tl.to(dn[0], { autoAlpha: 0, duration: .2 }, tD - .1);
-      tl.fromTo(big, { '--fill': 0 }, { '--fill': 1, duration: .9, ease: 'power1.inOut', immediateRender: false }, T.w(3, ['idea']) - .2);
-      const tCaro = T.w(3, ['caro', 'lugar']);
+      tl.fromTo(big, { '--fill': 0 }, { '--fill': 1, duration: .9, ease: 'power1.inOut', immediateRender: false }, T.w(3, ['costo']) - .2);
+      const tCaro = T.w(3, ['set', 'maximo']);
       tl.to(big, { scale: 16, duration: 1.1, ease: 'expo.in' }, tCaro - .3);
       const plate = q(cam, '.s11-plate');
       tl.fromTo(plate, { autoAlpha: 0, scale: 1.25 }, { autoAlpha: 1, scale: 1.05, duration: .7, ease: 'power2.out', immediateRender: false }, tCaro + .35);
