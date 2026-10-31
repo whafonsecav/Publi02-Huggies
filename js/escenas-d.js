@@ -217,35 +217,48 @@
       cam.innerHTML = `
       <img class="plate s12-pl" src="assets/fallback/set-cierre.jpg" alt="">
       <p class="ctr anton au-sheen s12-g" style="top:118px;font-size:270px;line-height:.95">GRACIAS</p>
-      <p class="ctr fr ink o0 s12-p1" style="top:400px;font-size:52px"><span class="a">por quedarse hasta el final…</span> <span class="b o0">y por no salirse del tema.</span></p>
-      <p class="abs cv red o0 s12-ni" style="left:1360px;top:448px;font-size:52px;transform:rotate(-6deg)">(ni del pañal)</p>
-      <div class="ctr o0 s12-c1" style="top:500px"><span class="lbl">Presentan</span><span class="fr red s12-nm"><span class="s12-n1">William Fonseca</span> <b class="anton gold s12-y o0">&amp;</b> <span class="s12-n2 o0">Mariana Silva</span></span></div>
-      <div class="ctr o0 s12-c2" style="top:640px"><span class="s12-doc">Docente: <b>Rüdiger Stuart González Preciado</b></span>
+      <p class="ctr fr ink o0 s12-p1" style="top:400px;font-size:52px">por quedarse hasta el final.</p>
+      <div class="ctr s12-camp" style="top:490px">
+        <p class="s12-h">${['Hubo popó,', 'hubo pánico', 'y hubo películas…'].map(x => `<span class="o0">${x}</span>`).join(' ')}</p>
+        <p class="fr red o0 s12-v">…pero no hubo víctimas.</p>
+        <div class="s12-cc o0"><span>Porque con</span><img src="assets/logos/huggies-logo.svg" alt="Huggies"><b class="anton">nada se sale de control.</b></div>
+      </div>
+      <p class="ctr fr red o0 s12-sl" style="top:392px;font-size:54px">«Lo que pasa en el pañal, se queda en el pañal.»</p>
+      <div class="ctr o0 s12-c1" style="top:480px"><span class="lbl">Presentan</span><span class="fr red s12-nm"><span class="s12-n1">William Fonseca</span> <b class="anton gold s12-y o0">&amp;</b> <span class="s12-n2 o0">Mariana Silva</span></span></div>
+      <div class="ctr o0 s12-c2" style="top:625px"><span class="s12-doc">Docente: <b>Rüdiger Stuart González Preciado</b></span>
         <span class="s12-ins"><img src="assets/logos/politecnico-b.png" alt="Politécnico Grancolombiano">Publicidad 2 · Presencial nocturna · Sede Bogotá · Viernes</span></div>
       <div class="s12-src o0">
         <p><b>Fuentes:</b> Huggies® / Kimberly-Clark y McCann NY + NZ (teaser, livestream del 12-mar-2026 y case film de Cannes Lions 2026) · Campaign Brief NZ · Ekman (1992) · Case et al. (2006) · Rozin, Millman y Nemeroff (1986) · Keltner y Buswell (1997) · Mott Poll (2017) · Kahneman y Tversky (1979) · Albrecht (2012) · Pampers (2023).</p>
-        <p><b>Notas legales:</b> fotogramas, clips y música del teaser © Huggies® × McCann (2026), uso académico · imágenes con sello «IA»: generadas con IA, ilustrativas · voz de William clonada con IA.</p>
+        <p><b>Notas legales:</b> fotogramas, clips y música del teaser © Huggies® × McCann (2026), uso académico · imágenes con sello «IA»: generadas con IA, ilustrativas · voz de William clonada con IA · personajes de la nueva idea: ficticios.</p>
       </div>
       <figure class="slot mul feather o0 s12-bb" data-slot="p14" style="left:1470px;top:150px;width:400px;--fx:14%;--fy:16%"></figure>
       <div class="lay s12-spk"></div>`;
       A.kb(q(cam, '.s12-pl'), 0, T.dur, { from: 1.0, to: 1.05 });
+      // ---------- beat 0: gracias, y la campaña entera en una línea
       const tG = T.w(0, ['gracias']);
       tl.fromTo(q(cam, '.s12-g'), { scale: 1, letterSpacing: '0.006em' }, { scale: 1.06, letterSpacing: '0.05em', duration: .8, ease: 'expo.out', immediateRender: false }, tG - .1);
       A.sparkle(q(cam, '.s12-spk'), 960, 260, tG + .6, { n: 26, r: 760, size: 50 });
-      A.show(q(cam, '.s12-p1'), T.w(0, ['por']) - .1);
-      A.rise(q(cam, '.s12-p1 .a'), T.w(0, ['por']) - .1, { y: 18 });
-      A.rise(q(cam, '.s12-p1 .b'), T.w(0, ['por'], 1) - .1, { y: 18 });
-      A.pop(q(cam, '.s12-ni'), T.wEnd(0, ['tema']) + .05, { from: .3, rot: -20, toRot: -6 });
-      A.rise(q(cam, '.s12-c1'), T.w(0, ['soy']) - .1, { y: 24 });
-      A.fade(q(cam, '.s12-y'), T.w(0, ['mariana']) - .25, .3);
-      A.rise(q(cam, '.s12-n2'), T.w(0, ['mariana']) - .15, { y: 18 });
-      A.rise(q(cam, '.s12-c2'), T.w(0, ['publicidad']) - .2, { y: 24 });
-      A.fade(q(cam, '.s12-src'), T.w(0, ['publicidad']) + .2, .6);
-      A.fade(q(cam, '.s12-bb'), T.w(0, ['soy']), .8);
+      A.rise(q(cam, '.s12-p1'), T.w(0, ['por']) - .1, { y: 18 });
+      qa(cam, '.s12-h span').forEach((s, k) => A.rise(s, T.w(0, ['hubo'], k) - .1, { y: 18 }));
+      A.slam(q(cam, '.s12-v'), T.w(0, ['pero']) - .1, { from: 1.4, amp: 6 });
+      const cc = q(cam, '.s12-cc'), tN = T.w(0, ['nada']);
+      A.pop(cc, T.w(0, ['porque']) - .1, { from: .6 });
+      A.sparkle(q(cam, '.s12-spk'), 960, 690, tN + .5, { n: 20, r: 620, size: 44 });
+      // ---------- beat 1: quiénes la hicimos, y el eslogan como firma
+      tl.to(qa(cam, '.s12-p1,.s12-h,.s12-v,.s12-cc'), { autoAlpha: 0, y: -24, duration: .35, stagger: .04, ease: 'power2.in' }, T.b(1) - .4);
+      A.rise(q(cam, '.s12-c1'), T.w(1, ['soy']) - .1, { y: 24 });
+      A.fade(q(cam, '.s12-y'), T.w(1, ['mariana']) - .25, .3);
+      A.rise(q(cam, '.s12-n2'), T.w(1, ['mariana']) - .15, { y: 18 });
+      A.rise(q(cam, '.s12-c2'), T.w(1, ['construimos']) - .1, { y: 24 });
+      A.fade(q(cam, '.s12-src'), T.w(1, ['miedo']), .6);
+      A.fade(q(cam, '.s12-bb'), T.w(1, ['soy']), .8);
+      const tS = T.w(1, ['lo que pasa', 'recuerden']);
+      A.pop(q(cam, '.s12-sl'), tS - .1, { from: .6 });
+      A.sparkle(q(cam, '.s12-spk'), 960, 420, tS + .4, { n: 22, r: 700, size: 44 });
       // la cuenta regresiva llega a 00:00 y muestra RECAP
       const rem = Math.max(0, (window.DECK_CONFIG ? DECK_CONFIG.showSeconds : 600) - (T.prevSum || 0) - T.b(0));
-      tl.fromTo(window.CDCTRL, { v: rem }, { v: 0, duration: Math.max(1, T.e(0) - T.b(0)), ease: 'power1.in', immediateRender: false }, T.b(0));
-      tl.fromTo(window.CDCTRL, { recap: 0 }, { recap: 1, duration: .05, immediateRender: false }, T.e(0) + .15);
+      tl.fromTo(window.CDCTRL, { v: rem }, { v: 0, duration: Math.max(1, T.e(1) - T.b(0)), ease: 'power1.in', immediateRender: false }, T.b(0));
+      tl.fromTo(window.CDCTRL, { recap: 0 }, { recap: 1, duration: .05, immediateRender: false }, T.e(1) + .15);
     }
   };
 
