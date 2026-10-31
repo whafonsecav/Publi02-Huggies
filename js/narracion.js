@@ -2,12 +2,12 @@
 window.NARRACION = {
  "version": 5,
  "voz": "william_2_reels",
- "total": 553.93,
+ "total": 724.0,
  "escenas": [
   {
    "id": "s01",
    "titulo": "Portada: el gancho",
-   "audio": "assets/voz/s01.mp3?v=6",
+   "audio": "assets/voz/s01.mp3?v=7",
    "dur": 38.8,
    "beats": [
     {
@@ -586,7 +586,7 @@ window.NARRACION = {
   {
    "id": "s02",
    "titulo": "Antes: el enemigo",
-   "audio": "assets/voz/s02.mp3?v=6",
+   "audio": "assets/voz/s02.mp3?v=7",
    "dur": 46.49,
    "beats": [
     {
@@ -1335,7 +1335,7 @@ window.NARRACION = {
   {
    "id": "s03",
    "titulo": "La campaña: cómo funcionó",
-   "audio": "assets/voz/s03.mp3?v=6",
+   "audio": "assets/voz/s03.mp3?v=7",
    "dur": 46.11,
    "beats": [
     {
@@ -2029,7 +2029,7 @@ window.NARRACION = {
   {
    "id": "s04",
    "titulo": "Resultado y veredicto",
-   "audio": "assets/voz/s04.mp3?v=6",
+   "audio": "assets/voz/s04.mp3?v=7",
    "dur": 31.77,
    "beats": [
     {
@@ -2489,7 +2489,7 @@ window.NARRACION = {
   {
    "id": "s05",
    "titulo": "Al revés: la necesidad",
-   "audio": "assets/voz/s05.mp3?v=6",
+   "audio": "assets/voz/s05.mp3?v=7",
    "dur": 30.73,
    "beats": [
     {
@@ -3024,7 +3024,7 @@ window.NARRACION = {
   {
    "id": "s06",
    "titulo": "¿Si ha visto cuando alguien…?",
-   "audio": "assets/voz/s06.mp3?v=6",
+   "audio": "assets/voz/s06.mp3?v=7",
    "dur": 82.1,
    "beats": [
     {
@@ -4444,7 +4444,7 @@ window.NARRACION = {
   {
    "id": "s07",
    "titulo": "¿Qué pasaría si…?",
-   "audio": "assets/voz/s07.mp3?v=6",
+   "audio": "assets/voz/s07.mp3?v=7",
    "dur": 79.04,
    "beats": [
     {
@@ -5694,7 +5694,7 @@ window.NARRACION = {
   {
    "id": "s08",
    "titulo": "Emociones",
-   "audio": "assets/voz/s08.mp3?v=6",
+   "audio": "assets/voz/s08.mp3?v=7",
    "dur": 45.88,
    "beats": [
     {
@@ -6451,7 +6451,7 @@ window.NARRACION = {
   {
    "id": "s09",
    "titulo": "Miedos por tallas",
-   "audio": "assets/voz/s09.mp3?v=6",
+   "audio": "assets/voz/s09.mp3?v=7",
    "dur": 54.99,
    "beats": [
     {
@@ -7429,7 +7429,7 @@ window.NARRACION = {
   {
    "id": "s10",
    "titulo": "Los insights",
-   "audio": "assets/voz/s10.mp3?v=6",
+   "audio": "assets/voz/s10.mp3?v=7",
    "dur": 43.23,
    "beats": [
     {
@@ -8256,625 +8256,615 @@ window.NARRACION = {
   {
    "id": "s11",
    "titulo": "El insight principal",
-   "audio": "assets/voz/s11.mp3?v=6",
-   "dur": 39.75,
+   "audio": "assets/voz/s11.mp3?v=7",
+   "dur": 39.18,
    "beats": [
     {
      "i": 0,
-     "t0": 0.23,
-     "t1": 5.22,
+     "t0": 0.67,
+     "t1": 5.09,
      "sub": "Pero si juntamos todo lo que aprendimos, aparece uno que lo explica todo.",
      "cue": "Las frases anteriores se funden en una sola luz.",
      "w": [
       [
-       0.35,
+       0.79,
        1.27,
        "Pero"
       ],
       [
        1.27,
-       1.45,
+       1.43,
        "si"
       ],
       [
-       1.45,
-       1.95,
+       1.43,
+       1.91,
        "juntamos"
       ],
       [
-       1.95,
-       2.25,
+       1.91,
+       2.15,
        "todo"
       ],
       [
-       2.25,
-       2.41,
+       2.15,
+       2.29,
        "lo"
       ],
       [
-       2.41,
-       2.53,
+       2.29,
+       2.39,
        "que"
       ],
       [
-       2.53,
-       3.17,
+       2.39,
+       3.03,
        "aprendimos,"
       ],
       [
-       3.28,
-       3.8,
+       3.15,
+       3.64,
        "aparece"
       ],
       [
-       3.8,
-       4.14,
+       3.64,
+       3.98,
        "uno"
       ],
       [
-       4.14,
-       4.3,
+       3.98,
+       4.16,
        "que"
       ],
       [
-       4.3,
-       4.4,
+       4.16,
+       4.26,
        "lo"
       ],
       [
-       4.4,
-       4.88,
+       4.26,
+       4.73,
        "explica"
       ],
       [
-       4.88,
-       5.22,
+       4.73,
+       5.09,
        "todo."
       ]
      ]
     },
     {
      "i": 1,
-     "t0": 5.42,
-     "t1": 10.18,
-     "sub": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»",
-     "cue": "EL INSIGHT gigante, palabra por palabra; 'cuando se sale del pañal' en rojo.",
+     "t0": 5.32,
+     "t1": 9.49,
+     "sub": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale.»",
+     "cue": "EL INSIGHT gigante, palabra por palabra; 'cuando se sale' en rojo.",
      "w": [
       [
-       5.54,
-       6.09,
+       5.44,
+       5.92,
        "No"
       ],
       [
-       6.09,
-       6.23,
+       5.92,
+       6.06,
        "le"
       ],
       [
-       6.23,
-       6.51,
+       6.06,
+       6.34,
        "tengo"
       ],
       [
-       6.51,
-       6.85,
+       6.34,
+       6.66,
        "miedo"
       ],
       [
-       6.85,
-       7.0,
+       6.66,
+       6.8,
        "al"
       ],
       [
-       7.0,
-       7.42,
+       6.8,
+       7.2,
        "popó."
       ],
       [
-       7.59,
-       7.7,
+       7.45,
+       7.55,
        "Le"
       ],
       [
-       7.7,
-       7.96,
+       7.55,
+       7.85,
        "tengo"
       ],
       [
-       7.96,
-       8.24,
+       7.85,
+       8.13,
        "miedo"
       ],
       [
-       8.24,
-       8.32,
+       8.13,
+       8.23,
        "a"
       ],
       [
-       8.32,
-       8.42,
+       8.23,
+       8.33,
        "lo"
       ],
       [
-       8.42,
-       8.56,
+       8.33,
+       8.45,
        "que"
       ],
       [
-       8.56,
-       8.92,
+       8.45,
+       8.75,
        "pasa"
       ],
       [
-       8.92,
-       9.16,
+       8.75,
+       9.03,
        "cuando"
       ],
       [
-       9.16,
-       9.34,
+       9.03,
+       9.21,
        "se"
       ],
       [
-       9.34,
-       9.6,
-       "sale"
-      ],
-      [
-       9.6,
-       9.78,
-       "del"
-      ],
-      [
-       9.78,
-       10.18,
-       "pañal."
+       9.21,
+       9.49,
+       "sale."
       ]
      ]
     },
     {
      "i": 2,
-     "t0": 10.65,
-     "t1": 18.6,
+     "t0": 10.05,
+     "t1": 17.98,
      "sub": "Funciona porque abarca todos los miedos: el plan que se arruina, lo ajeno que se mancha, la mirada de los demás y la libertad que se pierde.",
      "cue": "Debajo, las cuatro consecuencias: el plan, lo ajeno, los demás, la libertad.",
      "w": [
       [
-       10.77,
-       11.21,
+       10.17,
+       10.61,
        "Funciona"
       ],
       [
-       11.21,
-       11.43,
+       10.61,
+       10.81,
        "porque"
       ],
       [
-       11.43,
-       11.87,
+       10.81,
+       11.23,
        "abarca"
       ],
       [
-       11.87,
-       12.25,
+       11.23,
+       11.55,
        "todos"
       ],
       [
-       12.25,
-       12.51,
+       11.55,
+       11.81,
        "los"
       ],
       [
-       12.51,
-       12.99,
+       11.81,
+       12.27,
        "miedos:"
       ],
       [
-       13.11,
-       13.43,
+       12.39,
+       12.64,
        "el"
       ],
       [
-       13.43,
-       13.69,
+       12.64,
+       12.86,
        "plan"
       ],
       [
-       13.69,
-       13.83,
+       12.86,
+       13.02,
        "que"
       ],
       [
-       13.83,
-       13.99,
+       13.02,
+       13.16,
        "se"
       ],
       [
-       13.99,
-       14.43,
+       13.16,
+       13.62,
        "arruina,"
       ],
       [
-       14.69,
-       14.85,
+       13.9,
+       14.06,
        "lo"
       ],
       [
-       14.85,
-       15.19,
+       14.06,
+       14.38,
        "ajeno"
       ],
       [
-       15.19,
-       15.31,
+       14.38,
+       14.54,
        "que"
       ],
       [
-       15.31,
-       15.47,
+       14.54,
+       14.68,
        "se"
       ],
       [
-       15.47,
-       15.85,
+       14.68,
+       15.1,
        "mancha,"
       ],
       [
-       15.98,
-       16.08,
+       15.44,
+       15.56,
        "la"
       ],
       [
-       16.08,
-       16.44,
+       15.56,
+       15.96,
        "mirada"
       ],
       [
-       16.44,
-       16.58,
+       15.96,
+       16.1,
        "de"
       ],
       [
-       16.58,
-       16.76,
+       16.1,
+       16.26,
        "los"
       ],
       [
-       16.76,
-       17.02,
+       16.26,
+       16.54,
        "demás"
       ],
       [
-       17.02,
-       17.22,
+       16.54,
+       16.74,
        "y"
       ],
       [
-       17.22,
-       17.34,
+       16.74,
+       16.84,
        "la"
       ],
       [
+       16.84,
        17.34,
-       17.88,
        "libertad"
       ],
       [
-       17.88,
-       18.02,
+       17.34,
+       17.48,
        "que"
       ],
       [
-       18.02,
-       18.16,
+       17.48,
+       17.62,
        "se"
       ],
       [
-       18.16,
-       18.6,
+       17.62,
+       17.98,
        "pierde."
       ]
      ]
     },
     {
      "i": 3,
-     "t0": 18.77,
-     "t1": 30.48,
+     "t0": 18.15,
+     "t1": 30.08,
      "sub": "Y si el miedo es a lo que cuesta que se salga, la idea fue subir ese costo al máximo: un set de medio millón de dólares. Si aguanta medio millón de dólares… aguanta tu sofá.",
      "cue": "'EL COSTO' se convierte en el set de lujo; súper de cierre estilo teaser: 'Si aguanta medio millón de dólares…' / 'AGUANTA TU SOFÁ' + logo Huggies.",
      "w": [
       [
-       18.89,
-       19.17,
+       18.27,
+       19.2,
        "Y"
       ],
       [
-       19.17,
-       19.33,
+       19.2,
+       19.36,
        "si"
       ],
       [
-       19.33,
-       19.47,
+       19.36,
+       19.52,
        "el"
       ],
       [
-       19.47,
-       19.79,
+       19.52,
+       19.86,
        "miedo"
       ],
       [
-       19.79,
-       20.03,
+       19.86,
+       20.16,
        "es"
       ],
       [
-       20.03,
-       20.11,
+       20.16,
+       20.28,
        "a"
       ],
       [
-       20.11,
-       20.23,
+       20.28,
+       20.38,
        "lo"
       ],
       [
-       20.23,
-       20.37,
+       20.38,
+       20.5,
        "que"
       ],
       [
-       20.37,
-       20.75,
+       20.5,
+       20.8,
        "cuesta"
       ],
       [
-       20.75,
-       20.93,
+       20.8,
+       20.96,
        "que"
       ],
       [
-       20.93,
-       21.07,
+       20.96,
+       21.1,
        "se"
       ],
       [
-       21.07,
-       21.51,
+       21.1,
+       21.5,
        "salga,"
       ],
       [
-       21.66,
-       21.9,
+       21.75,
+       22.06,
        "la"
       ],
       [
-       21.9,
-       22.16,
+       22.06,
+       22.36,
        "idea"
       ],
       [
-       22.16,
-       22.38,
+       22.36,
+       22.6,
        "fue"
       ],
       [
-       22.38,
-       22.76,
+       22.6,
+       22.96,
        "subir"
       ],
       [
-       22.76,
-       23.04,
+       22.96,
+       23.24,
        "ese"
       ],
       [
-       23.04,
-       23.56,
+       23.24,
+       23.78,
        "costo"
       ],
       [
-       23.56,
-       23.72,
+       23.78,
+       24.02,
        "al"
       ],
       [
-       23.72,
-       24.22,
+       24.02,
+       24.5,
        "máximo:"
       ],
       [
-       24.54,
-       24.93,
+       24.69,
+       24.96,
        "un"
       ],
       [
-       24.93,
-       25.27,
+       24.96,
+       25.18,
        "set"
       ],
       [
-       25.27,
-       25.56,
+       25.18,
+       25.32,
        "de"
       ],
       [
+       25.32,
        25.56,
-       25.9,
        "medio"
       ],
       [
+       25.56,
        25.9,
-       26.34,
        "millón"
       ],
       [
-       26.34,
-       26.48,
+       25.9,
+       26.04,
        "de"
       ],
       [
-       26.48,
-       26.86,
+       26.04,
+       26.38,
        "dólares."
       ],
       [
-       27.3,
-       27.64,
+       26.84,
+       27.17,
        "Si"
       ],
       [
-       27.64,
-       28.08,
+       27.17,
+       27.55,
        "aguanta"
       ],
       [
-       28.08,
-       28.42,
+       27.55,
+       27.79,
        "medio"
       ],
       [
-       28.42,
-       28.86,
+       27.79,
+       28.13,
        "millón"
       ],
       [
-       28.86,
-       28.98,
+       28.13,
+       28.23,
        "de"
       ],
       [
-       28.98,
-       29.34,
+       28.23,
+       28.61,
        "dólares,"
       ],
       [
-       29.58,
-       29.9,
+       28.86,
+       29.5,
        "aguanta"
       ],
       [
-       29.9,
-       30.1,
+       29.5,
+       29.72,
        "tu"
       ],
       [
-       30.1,
-       30.48,
+       29.72,
+       30.08,
        "sofá."
       ]
      ]
     },
     {
      "i": 4,
-     "t0": 30.64,
-     "t1": 38.22,
+     "t0": 30.26,
+     "t1": 37.79,
      "sub": "Así queda la lámina del ejercicio: lo que vimos, lo que imaginamos, lo que sentimos, lo que tememos… y el insight.",
      "cue": "Plantilla de la lámina 11 del PDF llenándose sola: ¿Si ha visto cuando? R/ · ¿Qué pasaría si? R/ · Emociones · Miedo · Insight.",
      "w": [
       [
-       30.76,
-       31.64,
+       30.38,
+       31.14,
        "Así"
       ],
       [
-       31.64,
-       31.9,
+       31.14,
+       31.4,
        "queda"
       ],
       [
-       31.9,
-       32.06,
+       31.4,
+       31.56,
        "la"
       ],
       [
-       32.06,
-       32.44,
+       31.56,
+       31.92,
        "lámina"
       ],
       [
-       32.44,
-       32.6,
+       31.92,
+       32.1,
        "del"
       ],
       [
-       32.6,
-       33.24,
+       32.1,
+       32.72,
        "ejercicio:"
       ],
       [
-       33.38,
-       33.57,
+       32.9,
+       33.08,
        "lo"
       ],
       [
-       33.57,
-       33.71,
+       33.08,
+       33.18,
        "que"
       ],
       [
-       33.71,
-       34.05,
+       33.18,
+       33.48,
        "vimos,"
       ],
       [
-       34.33,
-       34.46,
+       33.86,
+       33.92,
        "lo"
       ],
       [
-       34.46,
-       34.58,
+       33.92,
+       34.02,
        "que"
       ],
       [
-       34.58,
-       35.34,
+       34.02,
+       34.88,
        "imaginamos,"
       ],
       [
-       35.54,
-       35.62,
+       35.12,
+       35.18,
        "lo"
       ],
       [
-       35.62,
-       35.76,
+       35.18,
+       35.28,
        "que"
       ],
       [
-       35.76,
-       36.44,
+       35.28,
+       35.96,
        "sentimos,"
       ],
       [
-       36.68,
-       36.74,
+       36.22,
+       36.28,
        "lo"
       ],
       [
-       36.74,
-       36.9,
+       36.28,
+       36.42,
        "que"
       ],
       [
-       36.9,
-       37.48,
+       36.42,
+       37.0,
        "tememos,"
       ],
       [
-       37.48,
-       37.72,
+       37.0,
+       37.29,
        "y"
       ],
       [
-       37.72,
-       37.9,
+       37.29,
+       37.45,
        "el"
       ],
       [
-       37.9,
-       38.22,
+       37.45,
+       37.79,
        "ínsait."
       ]
      ]
@@ -8882,56 +8872,2793 @@ window.NARRACION = {
    ],
    "subs": [
     {
-     "t0": 0.23,
-     "t1": 5.37,
+     "t0": 0.67,
+     "t1": 5.24,
      "text": "Pero si juntamos todo lo que aprendimos, aparece uno que lo explica todo."
     },
     {
-     "t0": 5.42,
-     "t1": 10.33,
-     "text": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»"
+     "t0": 5.32,
+     "t1": 9.64,
+     "text": "«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale.»"
     },
     {
-     "t0": 10.65,
-     "t1": 13.62,
+     "t0": 10.05,
+     "t1": 12.79,
      "text": "Funciona porque abarca todos los miedos:"
     },
     {
-     "t0": 13.64,
-     "t1": 18.75,
+     "t0": 12.81,
+     "t1": 18.13,
      "text": "el plan que se arruina, lo ajeno que se mancha, la mirada de los demás y la libertad que se pierde."
     },
     {
-     "t0": 18.77,
-     "t1": 23.49,
+     "t0": 18.15,
+     "t1": 23.71,
      "text": "Y si el miedo es a lo que cuesta que se salga, la idea fue subir ese costo al máximo:"
     },
     {
-     "t0": 23.51,
-     "t1": 29.49,
+     "t0": 23.73,
+     "t1": 28.76,
      "text": "un set de medio millón de dólares. Si aguanta medio millón de dólares…"
     },
     {
-     "t0": 29.53,
-     "t1": 30.63,
+     "t0": 28.81,
+     "t1": 30.23,
      "text": "aguanta tu sofá."
     },
     {
-     "t0": 30.64,
-     "t1": 33.31,
+     "t0": 30.26,
+     "t1": 32.83,
      "text": "Así queda la lámina del ejercicio:"
     },
     {
-     "t0": 33.33,
-     "t1": 38.37,
+     "t0": 32.85,
+     "t1": 37.94,
      "text": "lo que vimos, lo que imaginamos, lo que sentimos, lo que tememos… y el insight."
+    }
+   ]
+  },
+  {
+   "id": "n1",
+   "titulo": "El segundo ejercicio",
+   "audio": "assets/voz/n1.mp3?v=7",
+   "dur": 32.58,
+   "beats": [
+    {
+     "i": 0,
+     "t0": 0.23,
+     "t1": 6.73,
+     "sub": "Hasta aquí ya tenemos el insight: «No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale.»",
+     "cue": "El insight se encoge y se archiva como sello: EJERCICIO 1 · LISTO.",
+     "w": [
+      [
+       0.35,
+       1.1,
+       "Hasta"
+      ],
+      [
+       1.1,
+       1.38,
+       "aquí"
+      ],
+      [
+       1.38,
+       1.86,
+       "ya"
+      ],
+      [
+       1.86,
+       2.29,
+       "tenemos"
+      ],
+      [
+       2.29,
+       2.6,
+       "el"
+      ],
+      [
+       2.6,
+       2.94,
+       "ínsait:"
+      ],
+      [
+       3.2,
+       3.48,
+       "no"
+      ],
+      [
+       3.48,
+       3.62,
+       "le"
+      ],
+      [
+       3.62,
+       3.82,
+       "tengo"
+      ],
+      [
+       3.82,
+       4.05,
+       "miedo"
+      ],
+      [
+       4.05,
+       4.17,
+       "al"
+      ],
+      [
+       4.17,
+       4.5,
+       "popó,"
+      ],
+      [
+       4.75,
+       4.81,
+       "le"
+      ],
+      [
+       4.81,
+       5.05,
+       "tengo"
+      ],
+      [
+       5.05,
+       5.31,
+       "miedo"
+      ],
+      [
+       5.31,
+       5.43,
+       "a"
+      ],
+      [
+       5.43,
+       5.53,
+       "lo"
+      ],
+      [
+       5.53,
+       5.65,
+       "que"
+      ],
+      [
+       5.65,
+       5.95,
+       "pasa"
+      ],
+      [
+       5.95,
+       6.23,
+       "cuando"
+      ],
+      [
+       6.23,
+       6.43,
+       "se"
+      ],
+      [
+       6.43,
+       6.73,
+       "sale."
+      ]
+     ]
+    },
+    {
+     "i": 1,
+     "t0": 7.37,
+     "t1": 11.39,
+     "sub": "Pero esto no termina aquí. Ahora viene un segundo ejercicio.",
+     "cue": "EJERCICIO 2 gigante.",
+     "w": [
+      [
+       7.49,
+       8.23,
+       "Pero"
+      ],
+      [
+       8.23,
+       8.49,
+       "esto"
+      ],
+      [
+       8.49,
+       8.63,
+       "no"
+      ],
+      [
+       8.63,
+       9.05,
+       "termina"
+      ],
+      [
+       9.05,
+       9.29,
+       "aquí."
+      ],
+      [
+       9.5,
+       9.91,
+       "Ahora"
+      ],
+      [
+       9.91,
+       10.17,
+       "viene"
+      ],
+      [
+       10.17,
+       10.33,
+       "un"
+      ],
+      [
+       10.33,
+       10.69,
+       "segundo"
+      ],
+      [
+       10.69,
+       11.39,
+       "ejercicio."
+      ]
+     ]
+    },
+    {
+     "i": 2,
+     "t0": 12.32,
+     "t1": 21.88,
+     "sub": "1. Tomar la campaña de Huggies y, con las técnicas vistas en clase, proponer una idea nueva: ¿cómo la comunicaríamos diferente?",
+     "cue": "Tarjeta 1 del encargo.",
+     "w": [
+      [
+       12.44,
+       13.26,
+       "Primero,"
+      ],
+      [
+       13.44,
+       13.64,
+       "tomar"
+      ],
+      [
+       13.64,
+       13.84,
+       "la"
+      ],
+      [
+       13.84,
+       14.34,
+       "campaña"
+      ],
+      [
+       14.34,
+       14.5,
+       "de"
+      ],
+      [
+       14.5,
+       15.08,
+       "Huggies"
+      ],
+      [
+       15.08,
+       15.4,
+       "y,"
+      ],
+      [
+       15.62,
+       15.98,
+       "con"
+      ],
+      [
+       15.98,
+       16.22,
+       "las"
+      ],
+      [
+       16.22,
+       16.74,
+       "técnicas"
+      ],
+      [
+       16.74,
+       17.16,
+       "vistas"
+      ],
+      [
+       17.16,
+       17.42,
+       "en"
+      ],
+      [
+       17.42,
+       17.84,
+       "clase,"
+      ],
+      [
+       18.25,
+       18.82,
+       "proponer"
+      ],
+      [
+       18.82,
+       19.04,
+       "una"
+      ],
+      [
+       19.04,
+       19.34,
+       "idea"
+      ],
+      [
+       19.34,
+       19.78,
+       "nueva:"
+      ],
+      [
+       20.12,
+       20.42,
+       "¿cómo"
+      ],
+      [
+       20.42,
+       20.58,
+       "la"
+      ],
+      [
+       20.58,
+       21.48,
+       "comunicaríamos"
+      ],
+      [
+       21.48,
+       21.88,
+       "diferente?"
+      ]
+     ]
+    },
+    {
+     "i": 3,
+     "t0": 22.28,
+     "t1": 29.69,
+     "sub": "2. Decodificar ese concepto nuevo con el método de la clase: titular, tema de campaña, eslogan y concepto comercial.",
+     "cue": "Tarjeta 2 del encargo con las cuatro flechas del método.",
+     "w": [
+      [
+       22.4,
+       22.85,
+       "Y"
+      ],
+      [
+       22.85,
+       23.33,
+       "segundo,"
+      ],
+      [
+       23.47,
+       24.01,
+       "decodificar"
+      ],
+      [
+       24.01,
+       24.23,
+       "ese"
+      ],
+      [
+       24.23,
+       24.81,
+       "concepto"
+      ],
+      [
+       24.81,
+       25.05,
+       "nuevo"
+      ],
+      [
+       25.05,
+       25.29,
+       "con"
+      ],
+      [
+       25.29,
+       25.43,
+       "el"
+      ],
+      [
+       25.43,
+       25.79,
+       "método"
+      ],
+      [
+       25.79,
+       25.91,
+       "de"
+      ],
+      [
+       25.91,
+       26.03,
+       "la"
+      ],
+      [
+       26.03,
+       26.43,
+       "clase:"
+      ],
+      [
+       26.58,
+       27.14,
+       "titular,"
+      ],
+      [
+       27.33,
+       27.51,
+       "tema"
+      ],
+      [
+       27.51,
+       27.65,
+       "de"
+      ],
+      [
+       27.65,
+       28.19,
+       "campaña,"
+      ],
+      [
+       28.37,
+       28.59,
+       "eslogan"
+      ],
+      [
+       28.59,
+       28.75,
+       "y"
+      ],
+      [
+       28.75,
+       29.31,
+       "concepto"
+      ],
+      [
+       29.31,
+       29.69,
+       "comercial."
+      ]
+     ]
+    },
+    {
+     "i": 4,
+     "t0": 29.97,
+     "t1": 31.41,
+     "sub": "Así lo hicimos.",
+     "cue": "Todo se aparta: arranca la parte 2.",
+     "w": [
+      [
+       30.09,
+       30.86,
+       "Así"
+      ],
+      [
+       30.86,
+       31.02,
+       "lo"
+      ],
+      [
+       31.02,
+       31.41,
+       "hicimos."
+      ]
+     ]
+    }
+   ],
+   "subs": [
+    {
+     "t0": 0.23,
+     "t1": 4.74,
+     "text": "Hasta aquí ya tenemos el insight: «No le tengo miedo al popó."
+    },
+    {
+     "t0": 4.76,
+     "t1": 6.88,
+     "text": "Le tengo miedo a lo que pasa cuando se sale.»"
+    },
+    {
+     "t0": 7.37,
+     "t1": 11.54,
+     "text": "Pero esto no termina aquí. Ahora viene un segundo ejercicio."
+    },
+    {
+     "t0": 12.32,
+     "t1": 17.09,
+     "text": "1. Tomar la campaña de Huggies y, con las técnicas vistas en clase,"
+    },
+    {
+     "t0": 17.11,
+     "t1": 22.03,
+     "text": "proponer una idea nueva: ¿cómo la comunicaríamos diferente?"
+    },
+    {
+     "t0": 22.28,
+     "t1": 26.51,
+     "text": "2. Decodificar ese concepto nuevo con el método de la clase: titular,"
+    },
+    {
+     "t0": 26.53,
+     "t1": 29.84,
+     "text": "tema de campaña, eslogan y concepto comercial."
+    },
+    {
+     "t0": 29.97,
+     "t1": 31.56,
+     "text": "Así lo hicimos."
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "titulo": "La lluvia de ideas",
+   "audio": "assets/voz/n2.mp3?v=7",
+   "dur": 48.55,
+   "beats": [
+    {
+     "i": 0,
+     "t0": 0.62,
+     "t1": 12.76,
+     "sub": "Usamos una sola técnica: el brainstorming, la lluvia de ideas. 15 minutos, un líder que hace de director creativo, todas las ideas sobre la mesa, y un filtro al final.",
+     "cue": "Cronómetro de 15 minutos y las cuatro reglas.",
+     "w": [
+      [
+       0.74,
+       1.22,
+       "Usamos"
+      ],
+      [
+       1.22,
+       1.63,
+       "una"
+      ],
+      [
+       1.63,
+       2.13,
+       "sola"
+      ],
+      [
+       2.13,
+       2.67,
+       "técnica:"
+      ],
+      [
+       2.92,
+       3.25,
+       "el"
+      ],
+      [
+       3.25,
+       4.15,
+       "bréinstorming,"
+      ],
+      [
+       4.21,
+       4.44,
+       "la"
+      ],
+      [
+       4.44,
+       4.84,
+       "lluvia"
+      ],
+      [
+       4.84,
+       4.98,
+       "de"
+      ],
+      [
+       4.98,
+       5.42,
+       "ideas."
+      ],
+      [
+       5.87,
+       6.15,
+       "Quince"
+      ],
+      [
+       6.15,
+       6.55,
+       "minutos,"
+      ],
+      [
+       6.85,
+       7.06,
+       "un"
+      ],
+      [
+       7.06,
+       7.36,
+       "líder"
+      ],
+      [
+       7.36,
+       7.58,
+       "que"
+      ],
+      [
+       7.58,
+       7.88,
+       "hace"
+      ],
+      [
+       7.88,
+       8.04,
+       "de"
+      ],
+      [
+       8.04,
+       8.46,
+       "director"
+      ],
+      [
+       8.46,
+       9.16,
+       "creativo,"
+      ],
+      [
+       9.16,
+       9.59,
+       "todas"
+      ],
+      [
+       9.59,
+       9.85,
+       "las"
+      ],
+      [
+       9.85,
+       10.23,
+       "ideas"
+      ],
+      [
+       10.23,
+       10.55,
+       "sobre"
+      ],
+      [
+       10.55,
+       10.73,
+       "la"
+      ],
+      [
+       10.73,
+       11.05,
+       "mesa,"
+      ],
+      [
+       11.05,
+       11.54,
+       "y"
+      ],
+      [
+       11.54,
+       11.76,
+       "un"
+      ],
+      [
+       11.76,
+       12.22,
+       "filtro"
+      ],
+      [
+       12.22,
+       12.48,
+       "al"
+      ],
+      [
+       12.48,
+       12.76,
+       "final."
+      ]
+     ]
+    },
+    {
+     "i": 1,
+     "t0": 13.44,
+     "t1": 22.77,
+     "sub": "Ronda 1: el fútbol. Narrábamos el plan como un partido, con bebés inspirados en cracks y un narrador gritando: «¡No se salió!».",
+     "cue": "Ronda 1 entra con sus etiquetas de cracks.",
+     "w": [
+      [
+       13.56,
+       13.98,
+       "Primera"
+      ],
+      [
+       13.98,
+       14.36,
+       "ronda:"
+      ],
+      [
+       14.54,
+       14.79,
+       "el"
+      ],
+      [
+       14.79,
+       15.29,
+       "fútbol."
+      ],
+      [
+       15.51,
+       16.23,
+       "Narrábamos"
+      ],
+      [
+       16.23,
+       16.39,
+       "el"
+      ],
+      [
+       16.39,
+       16.61,
+       "plan"
+      ],
+      [
+       16.61,
+       16.85,
+       "como"
+      ],
+      [
+       16.85,
+       17.07,
+       "un"
+      ],
+      [
+       17.07,
+       17.51,
+       "partido,"
+      ],
+      [
+       17.75,
+       18.1,
+       "con"
+      ],
+      [
+       18.1,
+       18.52,
+       "bebés"
+      ],
+      [
+       18.52,
+       19.32,
+       "inspirados"
+      ],
+      [
+       19.32,
+       19.52,
+       "en"
+      ],
+      [
+       19.52,
+       19.92,
+       "cracks"
+      ],
+      [
+       19.92,
+       20.38,
+       "y"
+      ],
+      [
+       20.38,
+       20.56,
+       "un"
+      ],
+      [
+       20.56,
+       21.02,
+       "narrador"
+      ],
+      [
+       21.02,
+       21.64,
+       "gritando:"
+      ],
+      [
+       21.79,
+       22.23,
+       "¡no"
+      ],
+      [
+       22.23,
+       22.43,
+       "se"
+      ],
+      [
+       22.43,
+       22.77,
+       "salió!"
+      ]
+     ]
+    },
+    {
+     "i": 2,
+     "t0": 22.95,
+     "t1": 28.37,
+     "sub": "Al profe le gustaron el narrador y la competencia, pero sobraban el fútbol y los cracks.",
+     "cue": "Feedback del profe; la ronda 1 se tacha.",
+     "w": [
+      [
+       23.07,
+       23.79,
+       "Al"
+      ],
+      [
+       23.79,
+       24.17,
+       "profe"
+      ],
+      [
+       24.17,
+       24.27,
+       "le"
+      ],
+      [
+       24.27,
+       24.69,
+       "gustaron"
+      ],
+      [
+       24.69,
+       24.83,
+       "el"
+      ],
+      [
+       24.83,
+       25.29,
+       "narrador"
+      ],
+      [
+       25.29,
+       25.39,
+       "y"
+      ],
+      [
+       25.39,
+       25.49,
+       "la"
+      ],
+      [
+       25.49,
+       26.27,
+       "competencia,"
+      ],
+      [
+       26.39,
+       26.67,
+       "pero"
+      ],
+      [
+       26.67,
+       27.23,
+       "sobraban"
+      ],
+      [
+       27.23,
+       27.37,
+       "el"
+      ],
+      [
+       27.37,
+       27.75,
+       "fútbol"
+      ],
+      [
+       27.75,
+       27.87,
+       "y"
+      ],
+      [
+       27.87,
+       28.05,
+       "los"
+      ],
+      [
+       28.05,
+       28.37,
+       "cracks."
+      ]
+     ]
+    },
+    {
+     "i": 3,
+     "t0": 28.63,
+     "t1": 34.76,
+     "sub": "Ronda 2: el duelo. Dos bebés, un olor raro, y dos papás mirándose como en el viejo oeste.",
+     "cue": "Ronda 2 entra: VS.",
+     "w": [
+      [
+       28.75,
+       29.57,
+       "Segunda"
+      ],
+      [
+       29.57,
+       29.93,
+       "ronda:"
+      ],
+      [
+       30.11,
+       30.25,
+       "el"
+      ],
+      [
+       30.25,
+       30.57,
+       "duelo."
+      ],
+      [
+       30.72,
+       30.96,
+       "Dos"
+      ],
+      [
+       30.96,
+       31.34,
+       "bebés,"
+      ],
+      [
+       31.4,
+       31.52,
+       "un"
+      ],
+      [
+       31.52,
+       31.76,
+       "olor"
+      ],
+      [
+       31.76,
+       32.1,
+       "raro,"
+      ],
+      [
+       32.3,
+       32.64,
+       "y"
+      ],
+      [
+       32.64,
+       32.8,
+       "dos"
+      ],
+      [
+       32.8,
+       33.2,
+       "papás"
+      ],
+      [
+       33.2,
+       33.72,
+       "mirándose"
+      ],
+      [
+       33.72,
+       33.94,
+       "como"
+      ],
+      [
+       33.94,
+       34.08,
+       "en"
+      ],
+      [
+       34.08,
+       34.18,
+       "el"
+      ],
+      [
+       34.18,
+       34.48,
+       "viejo"
+      ],
+      [
+       34.48,
+       34.76,
+       "oeste."
+      ]
+     ]
+    },
+    {
+     "i": 4,
+     "t0": 35.23,
+     "t1": 40.23,
+     "sub": "Pero no se puede mostrar a un bebé perdedor, y el enemigo no es el olor: es que se salga.",
+     "cue": "Feedback; la ronda 2 se tacha.",
+     "w": [
+      [
+       35.35,
+       35.67,
+       "Pero"
+      ],
+      [
+       35.67,
+       35.81,
+       "no"
+      ],
+      [
+       35.81,
+       35.97,
+       "se"
+      ],
+      [
+       35.97,
+       36.19,
+       "puede"
+      ],
+      [
+       36.19,
+       36.61,
+       "mostrar"
+      ],
+      [
+       36.61,
+       36.81,
+       "a"
+      ],
+      [
+       36.81,
+       36.93,
+       "un"
+      ],
+      [
+       36.93,
+       37.15,
+       "bebé"
+      ],
+      [
+       37.15,
+       37.81,
+       "perdedor,"
+      ],
+      [
+       37.87,
+       38.14,
+       "y"
+      ],
+      [
+       38.14,
+       38.26,
+       "el"
+      ],
+      [
+       38.26,
+       38.7,
+       "enemigo"
+      ],
+      [
+       38.7,
+       38.84,
+       "no"
+      ],
+      [
+       38.84,
+       38.98,
+       "es"
+      ],
+      [
+       38.98,
+       39.12,
+       "el"
+      ],
+      [
+       39.12,
+       39.4,
+       "olor:"
+      ],
+      [
+       39.46,
+       39.63,
+       "es"
+      ],
+      [
+       39.63,
+       39.75,
+       "que"
+      ],
+      [
+       39.75,
+       39.87,
+       "se"
+      ],
+      [
+       39.87,
+       40.23,
+       "salga."
+      ]
+     ]
+    },
+    {
+     "i": 5,
+     "t0": 40.38,
+     "t1": 47.42,
+     "sub": "Ronda 3: un solo bebé, y un narrador que cuenta la película que se hace cada uno en su cabeza. Esa fue la idea que quedó.",
+     "cue": "Ronda 3 entra con sello ELEGIDA.",
+     "w": [
+      [
+       40.5,
+       41.14,
+       "Tercera"
+      ],
+      [
+       41.14,
+       41.48,
+       "ronda:"
+      ],
+      [
+       41.64,
+       41.89,
+       "un"
+      ],
+      [
+       41.89,
+       42.15,
+       "solo"
+      ],
+      [
+       42.15,
+       42.51,
+       "bebé,"
+      ],
+      [
+       42.51,
+       42.75,
+       "y"
+      ],
+      [
+       42.75,
+       42.89,
+       "un"
+      ],
+      [
+       42.89,
+       43.31,
+       "narrador"
+      ],
+      [
+       43.31,
+       43.47,
+       "que"
+      ],
+      [
+       43.47,
+       43.79,
+       "cuenta"
+      ],
+      [
+       43.79,
+       43.93,
+       "la"
+      ],
+      [
+       43.93,
+       44.31,
+       "película"
+      ],
+      [
+       44.31,
+       44.53,
+       "que"
+      ],
+      [
+       44.53,
+       44.69,
+       "se"
+      ],
+      [
+       44.69,
+       44.87,
+       "hace"
+      ],
+      [
+       44.87,
+       45.11,
+       "cada"
+      ],
+      [
+       45.11,
+       45.33,
+       "uno"
+      ],
+      [
+       45.33,
+       45.43,
+       "en"
+      ],
+      [
+       45.43,
+       45.55,
+       "su"
+      ],
+      [
+       45.55,
+       45.93,
+       "cabeza."
+      ],
+      [
+       46.08,
+       46.36,
+       "Esa"
+      ],
+      [
+       46.36,
+       46.5,
+       "fue"
+      ],
+      [
+       46.5,
+       46.62,
+       "la"
+      ],
+      [
+       46.62,
+       46.88,
+       "idea"
+      ],
+      [
+       46.88,
+       47.06,
+       "que"
+      ],
+      [
+       47.06,
+       47.42,
+       "quedó."
+      ]
+     ]
+    }
+   ],
+   "subs": [
+    {
+     "t0": 0.62,
+     "t1": 6.08,
+     "text": "Usamos una sola técnica: el brainstorming, la lluvia de ideas."
+    },
+    {
+     "t0": 6.1,
+     "t1": 9.78,
+     "text": "15 minutos, un líder que hace de director creativo,"
+    },
+    {
+     "t0": 9.8,
+     "t1": 12.91,
+     "text": "todas las ideas sobre la mesa, y un filtro al final."
+    },
+    {
+     "t0": 13.44,
+     "t1": 17.66,
+     "text": "Ronda 1: el fútbol. Narrábamos el plan como un partido,"
+    },
+    {
+     "t0": 17.7,
+     "t1": 22.92,
+     "text": "con bebés inspirados en cracks y un narrador gritando: «¡No se salió!»."
+    },
+    {
+     "t0": 22.95,
+     "t1": 26.32,
+     "text": "Al profe le gustaron el narrador y la competencia,"
+    },
+    {
+     "t0": 26.34,
+     "t1": 28.52,
+     "text": "pero sobraban el fútbol y los cracks."
+    },
+    {
+     "t0": 28.63,
+     "t1": 30.65,
+     "text": "Ronda 2: el duelo."
+    },
+    {
+     "t0": 30.67,
+     "t1": 34.91,
+     "text": "Dos bebés, un olor raro, y dos papás mirándose como en el viejo oeste."
+    },
+    {
+     "t0": 35.23,
+     "t1": 39.39,
+     "text": "Pero no se puede mostrar a un bebé perdedor, y el enemigo no es el olor:"
+    },
+    {
+     "t0": 39.41,
+     "t1": 40.38,
+     "text": "es que se salga."
+    },
+    {
+     "t0": 40.38,
+     "t1": 41.57,
+     "text": "Ronda 3:"
+    },
+    {
+     "t0": 41.59,
+     "t1": 46.01,
+     "text": "un solo bebé, y un narrador que cuenta la película que se hace cada uno en su cabeza."
+    },
+    {
+     "t0": 46.03,
+     "t1": 47.57,
+     "text": "Esa fue la idea que quedó."
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "titulo": "La historia",
+   "audio": "assets/voz/n3.mp3?v=7",
+   "dur": 47.53,
+   "beats": [
+    {
+     "i": 0,
+     "t0": 0.23,
+     "t1": 7.62,
+     "sub": "Con esa idea armamos la historia, con el mapa de la clase: personajes, escenario, conflicto, y el producto dentro de la historia.",
+     "cue": "Las cuatro fichas del mapa.",
+     "w": [
+      [
+       0.35,
+       0.76,
+       "Con"
+      ],
+      [
+       0.76,
+       0.98,
+       "esa"
+      ],
+      [
+       0.98,
+       1.24,
+       "idea"
+      ],
+      [
+       1.24,
+       1.74,
+       "armamos"
+      ],
+      [
+       1.74,
+       1.88,
+       "la"
+      ],
+      [
+       1.88,
+       2.28,
+       "historia,"
+      ],
+      [
+       2.28,
+       2.56,
+       "con"
+      ],
+      [
+       2.56,
+       2.7,
+       "el"
+      ],
+      [
+       2.7,
+       2.96,
+       "mapa"
+      ],
+      [
+       2.96,
+       3.1,
+       "de"
+      ],
+      [
+       3.1,
+       3.22,
+       "la"
+      ],
+      [
+       3.22,
+       3.64,
+       "clase:"
+      ],
+      [
+       4.06,
+       4.64,
+       "personajes,"
+      ],
+      [
+       4.88,
+       5.3,
+       "escenario,"
+      ],
+      [
+       5.46,
+       5.98,
+       "conflicto,"
+      ],
+      [
+       5.98,
+       6.08,
+       "y"
+      ],
+      [
+       6.08,
+       6.24,
+       "el"
+      ],
+      [
+       6.24,
+       6.6,
+       "producto"
+      ],
+      [
+       6.6,
+       6.9,
+       "dentro"
+      ],
+      [
+       6.9,
+       7.08,
+       "de"
+      ],
+      [
+       7.08,
+       7.22,
+       "la"
+      ],
+      [
+       7.22,
+       7.62,
+       "historia."
+      ]
+     ]
+    },
+    {
+     "i": 1,
+     "t0": 7.81,
+     "t1": 14.35,
+     "sub": "La intro: sábado en la noche, apartamento de Mariela. Música, picada y risas. María y Carlos llegaron con su bebé.",
+     "cue": "Acto 1: la sala.",
+     "w": [
+      [
+       7.93,
+       8.17,
+       "La"
+      ],
+      [
+       8.17,
+       8.51,
+       "intro:"
+      ],
+      [
+       8.67,
+       8.91,
+       "sábado"
+      ],
+      [
+       8.91,
+       8.99,
+       "en"
+      ],
+      [
+       8.99,
+       9.07,
+       "la"
+      ],
+      [
+       9.07,
+       9.31,
+       "noche,"
+      ],
+      [
+       9.43,
+       9.95,
+       "apartamento"
+      ],
+      [
+       9.95,
+       10.09,
+       "de"
+      ],
+      [
+       10.09,
+       10.61,
+       "Mariela."
+      ],
+      [
+       10.81,
+       11.25,
+       "Música,"
+      ],
+      [
+       11.25,
+       11.79,
+       "picada"
+      ],
+      [
+       11.79,
+       11.95,
+       "y"
+      ],
+      [
+       11.95,
+       12.39,
+       "risas."
+      ],
+      [
+       12.55,
+       12.85,
+       "María"
+      ],
+      [
+       12.85,
+       12.99,
+       "y"
+      ],
+      [
+       12.99,
+       13.27,
+       "Carlos"
+      ],
+      [
+       13.27,
+       13.63,
+       "llegaron"
+      ],
+      [
+       13.63,
+       13.83,
+       "con"
+      ],
+      [
+       13.83,
+       14.07,
+       "su"
+      ],
+      [
+       14.07,
+       14.35,
+       "bebé."
+      ]
+     ]
+    },
+    {
+     "i": 2,
+     "t0": 14.59,
+     "t1": 19.85,
+     "sub": "El nudo: ¡atención! Se sintió un olor… y en la sala todos se preguntan lo mismo: ¿quién se c*gó?",
+     "cue": "Acto 2: la sala se congela; censura sobre la pregunta.",
+     "w": [
+      [
+       14.71,
+       15.28,
+       "El"
+      ],
+      [
+       15.28,
+       15.56,
+       "nudo:"
+      ],
+      [
+       15.84,
+       16.3,
+       "¡atención!"
+      ],
+      [
+       16.51,
+       16.7,
+       "Se"
+      ],
+      [
+       16.7,
+       17.0,
+       "sintió"
+      ],
+      [
+       17.0,
+       17.12,
+       "un"
+      ],
+      [
+       17.12,
+       17.34,
+       "olor…"
+      ],
+      [
+       17.34,
+       17.52,
+       "y"
+      ],
+      [
+       17.52,
+       17.64,
+       "en"
+      ],
+      [
+       17.64,
+       17.78,
+       "la"
+      ],
+      [
+       17.78,
+       18.0,
+       "sala"
+      ],
+      [
+       18.0,
+       18.3,
+       "todos"
+      ],
+      [
+       18.3,
+       18.46,
+       "se"
+      ],
+      [
+       18.46,
+       18.92,
+       "preguntan"
+      ],
+      [
+       18.92,
+       19.0,
+       "lo"
+      ],
+      [
+       19.0,
+       19.34,
+       "mismo:"
+      ],
+      [
+       19.43,
+       19.69,
+       "¿quién"
+      ],
+      [
+       19.69,
+       19.85,
+       "se…?"
+      ]
+     ]
+    },
+    {
+     "i": 3,
+     "t0": 21.15,
+     "t1": 29.24,
+     "sub": "Y cada quien se hace su película. Mariela ve su sofá blanco manchado para siempre. Marcela ya escribe el chisme en el grupo.",
+     "cue": "Burbujas de Mariela (lo ajeno) y Marcela (los demás).",
+     "w": [
+      [
+       21.27,
+       21.44,
+       "Y"
+      ],
+      [
+       21.44,
+       21.71,
+       "cada"
+      ],
+      [
+       21.71,
+       22.05,
+       "quien"
+      ],
+      [
+       22.05,
+       22.3,
+       "se"
+      ],
+      [
+       22.3,
+       22.5,
+       "hace"
+      ],
+      [
+       22.5,
+       22.7,
+       "su"
+      ],
+      [
+       22.7,
+       23.19,
+       "película."
+      ],
+      [
+       23.78,
+       24.16,
+       "Mariela"
+      ],
+      [
+       24.16,
+       24.28,
+       "ve"
+      ],
+      [
+       24.28,
+       24.46,
+       "su"
+      ],
+      [
+       24.46,
+       24.78,
+       "sofá"
+      ],
+      [
+       24.78,
+       25.22,
+       "blanco"
+      ],
+      [
+       25.22,
+       25.84,
+       "manchado"
+      ],
+      [
+       25.84,
+       26.08,
+       "para"
+      ],
+      [
+       26.08,
+       26.52,
+       "siempre."
+      ],
+      [
+       26.98,
+       27.59,
+       "Marcela"
+      ],
+      [
+       27.59,
+       27.79,
+       "ya"
+      ],
+      [
+       27.79,
+       28.19,
+       "escribe"
+      ],
+      [
+       28.19,
+       28.41,
+       "el"
+      ],
+      [
+       28.41,
+       28.73,
+       "chisme"
+      ],
+      [
+       28.73,
+       28.89,
+       "en"
+      ],
+      [
+       28.89,
+       28.99,
+       "el"
+      ],
+      [
+       28.99,
+       29.24,
+       "grupo."
+      ]
+     ]
+    },
+    {
+     "i": 4,
+     "t0": 29.47,
+     "t1": 37.68,
+     "sub": "Natalia ve la fiesta acabarse antes de la pizza. Y María y Carlos se ven encerrados en la casa hasta que el bebé cumpla 15.",
+     "cue": "Burbujas de Natalia (el plan) y María y Carlos (la libertad).",
+     "w": [
+      [
+       29.59,
+       30.16,
+       "Natalia"
+      ],
+      [
+       30.16,
+       30.34,
+       "ve"
+      ],
+      [
+       30.34,
+       30.5,
+       "la"
+      ],
+      [
+       30.5,
+       30.88,
+       "fiesta"
+      ],
+      [
+       30.88,
+       31.42,
+       "acabarse"
+      ],
+      [
+       31.42,
+       31.72,
+       "antes"
+      ],
+      [
+       31.72,
+       31.9,
+       "de"
+      ],
+      [
+       31.9,
+       32.02,
+       "la"
+      ],
+      [
+       32.02,
+       32.4,
+       "pizza."
+      ],
+      [
+       32.71,
+       32.97,
+       "Y"
+      ],
+      [
+       32.97,
+       33.25,
+       "María"
+      ],
+      [
+       33.25,
+       33.49,
+       "y"
+      ],
+      [
+       33.49,
+       33.89,
+       "Carlos"
+      ],
+      [
+       33.89,
+       34.35,
+       "se"
+      ],
+      [
+       34.35,
+       34.55,
+       "ven"
+      ],
+      [
+       34.55,
+       35.13,
+       "encerrados"
+      ],
+      [
+       35.13,
+       35.35,
+       "en"
+      ],
+      [
+       35.35,
+       35.49,
+       "la"
+      ],
+      [
+       35.49,
+       35.85,
+       "casa"
+      ],
+      [
+       35.85,
+       36.3,
+       "hasta"
+      ],
+      [
+       36.3,
+       36.48,
+       "que"
+      ],
+      [
+       36.48,
+       36.62,
+       "el"
+      ],
+      [
+       36.62,
+       36.94,
+       "bebé"
+      ],
+      [
+       36.94,
+       37.34,
+       "cumpla"
+      ],
+      [
+       37.34,
+       37.68,
+       "quince."
+      ]
+     ]
+    },
+    {
+     "i": 5,
+     "t0": 37.91,
+     "t1": 46.3,
+     "sub": "El desenlace: Carlos levanta al bebé y revisa. Silencio total… Uff. Es solo olor. La m*erda no se salió. Y la fiesta sigue.",
+     "cue": "Acto 3: alivio; censura; la fiesta sigue.",
+     "w": [
+      [
+       38.03,
+       38.3,
+       "El"
+      ],
+      [
+       38.3,
+       38.94,
+       "desenlace:"
+      ],
+      [
+       39.13,
+       39.58,
+       "Carlos"
+      ],
+      [
+       39.58,
+       40.08,
+       "levanta"
+      ],
+      [
+       40.08,
+       40.18,
+       "al"
+      ],
+      [
+       40.18,
+       40.46,
+       "bebé"
+      ],
+      [
+       40.46,
+       40.62,
+       "y"
+      ],
+      [
+       40.62,
+       41.08,
+       "revisa."
+      ],
+      [
+       41.19,
+       41.74,
+       "Silencio"
+      ],
+      [
+       41.74,
+       42.08,
+       "total…"
+      ],
+      [
+       42.32,
+       42.56,
+       "Uff."
+      ],
+      [
+       42.64,
+       42.78,
+       "Es"
+      ],
+      [
+       42.78,
+       42.96,
+       "solo"
+      ],
+      [
+       42.96,
+       43.28,
+       "olor."
+      ],
+      [
+       43.48,
+       43.9,
+       "La…"
+      ],
+      [
+       43.9,
+       44.85,
+       "no"
+      ],
+      [
+       44.85,
+       45.03,
+       "se"
+      ],
+      [
+       45.03,
+       45.35,
+       "salió."
+      ],
+      [
+       45.45,
+       45.58,
+       "Y"
+      ],
+      [
+       45.58,
+       45.68,
+       "la"
+      ],
+      [
+       45.68,
+       46.0,
+       "fiesta"
+      ],
+      [
+       46.0,
+       46.3,
+       "sigue."
+      ]
+     ]
+    }
+   ],
+   "subs": [
+    {
+     "t0": 0.23,
+     "t1": 5.39,
+     "text": "Con esa idea armamos la historia, con el mapa de la clase: personajes, escenario,"
+    },
+    {
+     "t0": 5.41,
+     "t1": 7.77,
+     "text": "conflicto, y el producto dentro de la historia."
+    },
+    {
+     "t0": 7.81,
+     "t1": 12.78,
+     "text": "La intro: sábado en la noche, apartamento de Mariela. Música, picada y risas."
+    },
+    {
+     "t0": 12.8,
+     "t1": 14.5,
+     "text": "María y Carlos llegaron con su bebé."
+    },
+    {
+     "t0": 14.59,
+     "t1": 18.93,
+     "text": "El nudo: ¡atención! Se sintió un olor… y en la sala todos se preguntan lo mismo:"
+    },
+    {
+     "t0": 18.95,
+     "t1": 20.0,
+     "text": "¿quién se c*gó?"
+    },
+    {
+     "t0": 21.15,
+     "t1": 26.67,
+     "text": "Y cada quien se hace su película. Mariela ve su sofá blanco manchado para siempre."
+    },
+    {
+     "t0": 26.93,
+     "t1": 29.39,
+     "text": "Marcela ya escribe el chisme en el grupo."
+    },
+    {
+     "t0": 29.47,
+     "t1": 32.9,
+     "text": "Natalia ve la fiesta acabarse antes de la pizza."
+    },
+    {
+     "t0": 32.92,
+     "t1": 37.83,
+     "text": "Y María y Carlos se ven encerrados en la casa hasta que el bebé cumpla 15."
+    },
+    {
+     "t0": 37.91,
+     "t1": 43.83,
+     "text": "El desenlace: Carlos levanta al bebé y revisa. Silencio total… Uff. Es solo olor."
+    },
+    {
+     "t0": 43.85,
+     "t1": 46.45,
+     "text": "La m*erda no se salió. Y la fiesta sigue."
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "titulo": "El concepto decodificado",
+   "audio": "assets/voz/n4.mp3?v=7",
+   "dur": 41.98,
+   "beats": [
+    {
+     "i": 0,
+     "t0": 0.73,
+     "t1": 4.25,
+     "sub": "Y todo eso nos llevó al concepto decodificado.",
+     "cue": "La flecha del concepto creativo y las cuatro flechas del método.",
+     "w": [
+      [
+       0.85,
+       1.43,
+       "Y"
+      ],
+      [
+       1.43,
+       1.73,
+       "todo"
+      ],
+      [
+       1.73,
+       2.09,
+       "eso"
+      ],
+      [
+       2.09,
+       2.33,
+       "nos"
+      ],
+      [
+       2.33,
+       2.61,
+       "llevó"
+      ],
+      [
+       2.61,
+       2.71,
+       "al"
+      ],
+      [
+       2.71,
+       3.39,
+       "concepto"
+      ],
+      [
+       3.39,
+       4.25,
+       "decodificado."
+      ]
+     ]
+    },
+    {
+     "i": 1,
+     "t0": 4.43,
+     "t1": 11.53,
+     "sub": "El concepto creativo, la sombrilla para todo: «Nada se sale de control». En tu casa, en la casa ajena y en cualquier plan.",
+     "cue": "NADA SE SALE DE CONTROL.",
+     "w": [
+      [
+       4.55,
+       5.06,
+       "El"
+      ],
+      [
+       5.06,
+       5.68,
+       "concepto"
+      ],
+      [
+       5.68,
+       6.16,
+       "creativo,"
+      ],
+      [
+       6.28,
+       6.36,
+       "la"
+      ],
+      [
+       6.36,
+       6.86,
+       "sombrilla"
+      ],
+      [
+       6.86,
+       7.1,
+       "para"
+      ],
+      [
+       7.1,
+       7.44,
+       "todo:"
+      ],
+      [
+       7.68,
+       8.1,
+       "nada"
+      ],
+      [
+       8.1,
+       8.34,
+       "se"
+      ],
+      [
+       8.34,
+       8.54,
+       "sale"
+      ],
+      [
+       8.54,
+       8.66,
+       "de"
+      ],
+      [
+       8.66,
+       9.08,
+       "control."
+      ],
+      [
+       9.25,
+       9.41,
+       "En"
+      ],
+      [
+       9.41,
+       9.53,
+       "tu"
+      ],
+      [
+       9.53,
+       9.81,
+       "casa,"
+      ],
+      [
+       9.91,
+       9.93,
+       "en"
+      ],
+      [
+       9.93,
+       10.01,
+       "la"
+      ],
+      [
+       10.01,
+       10.29,
+       "casa"
+      ],
+      [
+       10.29,
+       10.69,
+       "ajena"
+      ],
+      [
+       10.69,
+       10.83,
+       "y"
+      ],
+      [
+       10.83,
+       10.93,
+       "en"
+      ],
+      [
+       10.93,
+       11.23,
+       "cualquier"
+      ],
+      [
+       11.23,
+       11.53,
+       "plan."
+      ]
+     ]
+    },
+    {
+     "i": 2,
+     "t0": 11.72,
+     "t1": 20.64,
+     "sub": "El titular, como en la prensa amarillista: «¡Última hora! Olor sospechoso desata pánico en fiesta de amigos. Hubo popó, pero no hubo víctimas».",
+     "cue": "Periódico amarillista que gira y se detiene.",
+     "w": [
+      [
+       11.84,
+       12.55,
+       "El"
+      ],
+      [
+       12.55,
+       12.97,
+       "titular,"
+      ],
+      [
+       12.97,
+       13.27,
+       "como"
+      ],
+      [
+       13.27,
+       13.41,
+       "en"
+      ],
+      [
+       13.41,
+       13.49,
+       "la"
+      ],
+      [
+       13.49,
+       13.93,
+       "prensa"
+      ],
+      [
+       13.93,
+       14.67,
+       "amarillista:"
+      ],
+      [
+       14.82,
+       15.33,
+       "¡última"
+      ],
+      [
+       15.33,
+       15.63,
+       "hora!"
+      ],
+      [
+       15.84,
+       16.19,
+       "Olor"
+      ],
+      [
+       16.19,
+       16.71,
+       "sospechoso"
+      ],
+      [
+       16.71,
+       17.19,
+       "desata"
+      ],
+      [
+       17.19,
+       17.53,
+       "pánico"
+      ],
+      [
+       17.53,
+       17.69,
+       "en"
+      ],
+      [
+       17.69,
+       17.99,
+       "fiesta"
+      ],
+      [
+       17.99,
+       18.13,
+       "de"
+      ],
+      [
+       18.13,
+       18.53,
+       "amigos."
+      ],
+      [
+       18.76,
+       19.09,
+       "Hubo"
+      ],
+      [
+       19.09,
+       19.4,
+       "popó,"
+      ],
+      [
+       19.4,
+       19.72,
+       "pero"
+      ],
+      [
+       19.72,
+       19.9,
+       "no"
+      ],
+      [
+       19.9,
+       20.14,
+       "hubo"
+      ],
+      [
+       20.14,
+       20.64,
+       "víctimas."
+      ]
+     ]
+    },
+    {
+     "i": 3,
+     "t0": 20.87,
+     "t1": 23.59,
+     "sub": "El tema de campaña: «Cada quien se hace su película».",
+     "cue": "Tema de campaña.",
+     "w": [
+      [
+       20.99,
+       21.25,
+       "El"
+      ],
+      [
+       21.25,
+       21.45,
+       "tema"
+      ],
+      [
+       21.45,
+       21.59,
+       "de"
+      ],
+      [
+       21.59,
+       22.05,
+       "campaña:"
+      ],
+      [
+       22.19,
+       22.39,
+       "cada"
+      ],
+      [
+       22.39,
+       22.63,
+       "quien"
+      ],
+      [
+       22.63,
+       22.79,
+       "se"
+      ],
+      [
+       22.79,
+       22.93,
+       "hace"
+      ],
+      [
+       22.93,
+       23.11,
+       "su"
+      ],
+      [
+       23.11,
+       23.59,
+       "película."
+      ]
+     ]
+    },
+    {
+     "i": 4,
+     "t0": 23.96,
+     "t1": 28.46,
+     "sub": "El eslogan: «Huggies. Lo que pasa en el pañal, se queda en el pañal».",
+     "cue": "Eslogan gigante.",
+     "w": [
+      [
+       24.08,
+       24.65,
+       "El"
+      ],
+      [
+       24.65,
+       25.21,
+       "eslogan:"
+      ],
+      [
+       25.31,
+       25.87,
+       "Huggies."
+      ],
+      [
+       26.22,
+       26.35,
+       "Lo"
+      ],
+      [
+       26.35,
+       26.47,
+       "que"
+      ],
+      [
+       26.47,
+       26.73,
+       "pasa"
+      ],
+      [
+       26.73,
+       26.89,
+       "en"
+      ],
+      [
+       26.89,
+       27.01,
+       "el"
+      ],
+      [
+       27.01,
+       27.43,
+       "pañal,"
+      ],
+      [
+       27.51,
+       27.76,
+       "se"
+      ],
+      [
+       27.76,
+       27.96,
+       "queda"
+      ],
+      [
+       27.96,
+       28.08,
+       "en"
+      ],
+      [
+       28.08,
+       28.16,
+       "el"
+      ],
+      [
+       28.16,
+       28.46,
+       "pañal."
+      ]
+     ]
+    },
+    {
+     "i": 5,
+     "t0": 28.61,
+     "t1": 40.84,
+     "sub": "Y el concepto comercial: Huggies Little Snugglers, con bloqueo de escapes por delante y por detrás, y hasta 100 % de protección. Sin decir «compre», una invitación: «Que lo único que se escape sea el olor».",
+     "cue": "Concepto comercial y CTA.",
+     "w": [
+      [
+       28.73,
+       29.02,
+       "Y"
+      ],
+      [
+       29.02,
+       29.14,
+       "el"
+      ],
+      [
+       29.14,
+       29.64,
+       "concepto"
+      ],
+      [
+       29.64,
+       30.14,
+       "comercial:"
+      ],
+      [
+       30.36,
+       30.81,
+       "Huggies"
+      ],
+      [
+       30.81,
+       31.11,
+       "Lítel"
+      ],
+      [
+       31.11,
+       31.83,
+       "Snáglers,"
+      ],
+      [
+       32.01,
+       32.26,
+       "con"
+      ],
+      [
+       32.26,
+       32.72,
+       "bloqueo"
+      ],
+      [
+       32.72,
+       32.82,
+       "de"
+      ],
+      [
+       32.82,
+       33.08,
+       "escapes"
+      ],
+      [
+       33.08,
+       33.42,
+       "por"
+      ],
+      [
+       33.42,
+       33.74,
+       "delante"
+      ],
+      [
+       33.74,
+       33.86,
+       "y"
+      ],
+      [
+       33.86,
+       33.96,
+       "por"
+      ],
+      [
+       33.96,
+       34.4,
+       "detrás,"
+      ],
+      [
+       34.4,
+       34.8,
+       "y"
+      ],
+      [
+       34.8,
+       35.02,
+       "hasta"
+      ],
+      [
+       35.02,
+       35.2,
+       "cien"
+      ],
+      [
+       35.2,
+       35.34,
+       "por"
+      ],
+      [
+       35.34,
+       35.62,
+       "ciento"
+      ],
+      [
+       35.62,
+       35.94,
+       "de"
+      ],
+      [
+       35.94,
+       36.54,
+       "protección."
+      ],
+      [
+       36.73,
+       37.0,
+       "Sin"
+      ],
+      [
+       37.0,
+       37.38,
+       "decir"
+      ],
+      [
+       37.54,
+       37.86,
+       "compre,"
+      ],
+      [
+       37.86,
+       38.08,
+       "una"
+      ],
+      [
+       38.08,
+       38.74,
+       "invitación:"
+      ],
+      [
+       38.86,
+       38.96,
+       "que"
+      ],
+      [
+       38.96,
+       39.12,
+       "lo"
+      ],
+      [
+       39.12,
+       39.38,
+       "único"
+      ],
+      [
+       39.38,
+       39.56,
+       "que"
+      ],
+      [
+       39.56,
+       39.68,
+       "se"
+      ],
+      [
+       39.68,
+       40.04,
+       "escape"
+      ],
+      [
+       40.04,
+       40.34,
+       "sea"
+      ],
+      [
+       40.34,
+       40.5,
+       "el"
+      ],
+      [
+       40.5,
+       40.84,
+       "olor."
+      ]
+     ]
+    }
+   ],
+   "subs": [
+    {
+     "t0": 0.73,
+     "t1": 4.4,
+     "text": "Y todo eso nos llevó al concepto decodificado."
+    },
+    {
+     "t0": 4.43,
+     "t1": 9.46,
+     "text": "El concepto creativo, la sombrilla para todo: «Nada se sale de control»."
+    },
+    {
+     "t0": 9.48,
+     "t1": 11.68,
+     "text": "En tu casa, en la casa ajena y en cualquier plan."
+    },
+    {
+     "t0": 11.72,
+     "t1": 15.78,
+     "text": "El titular, como en la prensa amarillista: «¡Última hora!"
+    },
+    {
+     "t0": 15.79,
+     "t1": 19.33,
+     "text": "Olor sospechoso desata pánico en fiesta de amigos. Hubo popó,"
+    },
+    {
+     "t0": 19.35,
+     "t1": 20.79,
+     "text": "pero no hubo víctimas»."
+    },
+    {
+     "t0": 20.87,
+     "t1": 23.74,
+     "text": "El tema de campaña: «Cada quien se hace su película»."
+    },
+    {
+     "t0": 23.96,
+     "t1": 28.61,
+     "text": "El eslogan: «Huggies. Lo que pasa en el pañal, se queda en el pañal»."
+    },
+    {
+     "t0": 28.61,
+     "t1": 32.65,
+     "text": "Y el concepto comercial: Huggies Little Snugglers,"
+    },
+    {
+     "t0": 32.67,
+     "t1": 36.66,
+     "text": "con bloqueo de escapes por delante y por detrás, y hasta 100 % de protección."
+    },
+    {
+     "t0": 36.68,
+     "t1": 40.99,
+     "text": "Sin decir «compre», una invitación: «Que lo único que se escape sea el olor»."
     }
    ]
   },
   {
    "id": "s12",
    "titulo": "Gracias",
-   "audio": "assets/voz/s12.mp3?v=6",
+   "audio": "assets/voz/s12.mp3?v=7",
    "dur": 15.04,
    "beats": [
     {

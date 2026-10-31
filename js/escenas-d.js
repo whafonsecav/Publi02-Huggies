@@ -122,7 +122,7 @@
   E.s11 = {
     build(cam, T, tl, A, root) {
       root.dataset.legal = 'frames';
-      const L1 = 'No le tengo miedo al popó.'.split(' '), L2 = 'Le tengo miedo a lo que pasa'.split(' '), L3 = 'cuando se sale del pañal.'.split(' ');   // v5.2 (feedback de clase)
+      const L1 = 'No le tengo miedo al popó.'.split(' '), L2 = 'Le tengo miedo a lo que pasa'.split(' '), L3 = 'cuando se sale.'.split(' ');   // v6: el insight termina en «cuando se sale»
       cam.innerHTML = `
       <div class="lay s11-cloud">${cloudHTML('s11-c')}</div>
       <div class="s11-light o0"></div>
@@ -146,7 +146,7 @@
         <div class="s11-mon"><div class="scr"><video muted playsinline preload="auto" src="assets/video/huggies-expensive-shit-teaser.mp4"></video></div><i class="neck"></i><i class="foot"></i></div>
         <dl class="s11-dl">
           ${[['¿SI HA VISTO CUANDO?', 'R/. Alguien le pone una toalla al sofá ajeno… porque ¿y si se sale?'], ['¿QUÉ PASARÍA SI?', 'R/. …lo demostráramos en vivo, en un lujo todo blanco, con lo más valioso en riesgo.'],
-            ['EMOCIONES:', 'temor y desagrado → alegría'], ['MIEDO:', 'perder la libertad (XXL)'], ['INSIGHT:', '«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale del pañal.»']].map((d, k) => `
+            ['EMOCIONES:', 'temor y desagrado → alegría'], ['MIEDO:', 'perder la libertad (XXL)'], ['INSIGHT:', '«No le tengo miedo al popó. Le tengo miedo a lo que pasa cuando se sale.»']].map((d, k) => `
             <div class="o0${k === 4 ? ' ins' : ''}"><dt>${d[0]}</dt><dd>${d[1]}</dd></div>`).join('')}
         </dl>
       </div>`;

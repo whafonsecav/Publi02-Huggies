@@ -57,7 +57,9 @@
   const LIST = (N.escenas || []).filter(e => e && e.dur > 0);
   const PREV = []; LIST.reduce((acc, e, i) => { PREV[i] = acc; return acc + e.dur + 1.21; }, 0);   // B-8: cuenta también la onda (≈1,02 s) y el respiro
   const TOTAL_DUR = LIST.reduce((s, e) => s + e.dur, 0);
-  const CHAP = { s01: '', s02: '1 · LA HISTORIA', s03: '1 · LA HISTORIA', s04: '1 · LA HISTORIA', s05: '2 · EL EJERCICIO', s06: '2 · EL EJERCICIO', s07: '2 · EL EJERCICIO', s08: '2 · EL EJERCICIO', s09: '2 · EL EJERCICIO', s10: '2 · EL EJERCICIO', s11: '3 · EL INSIGHT', s12: '' };
+  // v6: la cuenta regresiva arranca en el minuto completo que cubre todo el show (con la parte 2 ya no cabe en 10:00)
+  CONFIG.showSeconds = Math.max(600, Math.ceil((TOTAL_DUR + 1.21 * LIST.length) / 60) * 60);
+  const CHAP = { s01: '', s02: '1 · LA HISTORIA', s03: '1 · LA HISTORIA', s04: '1 · LA HISTORIA', s05: '2 · EL EJERCICIO', s06: '2 · EL EJERCICIO', s07: '2 · EL EJERCICIO', s08: '2 · EL EJERCICIO', s09: '2 · EL EJERCICIO', s10: '2 · EL EJERCICIO', s11: '3 · EL INSIGHT', n1: '4 · LA NUEVA IDEA', n2: '4 · LA NUEVA IDEA', n3: '4 · LA NUEVA IDEA', n4: '4 · LA NUEVA IDEA', s12: '' };
   const scenesEl = $('#scenes');
 
   window.CDCTRL = { v: -1, recap: 0, reset() { this.v = -1; this.recap = 0; } };
